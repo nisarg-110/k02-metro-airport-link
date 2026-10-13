@@ -1,0 +1,16 @@
+po_id,dept_id,vendor,component_id,category,po_amount_inr,order_date,expected_delivery,actual_delivery,po_status
+PO-2026-001,CVL,Sahyadri Infra Builders,STN-BOX,civil_works,12350000,2026-01-29,2026-03-10,2026-06-07,closed
+PO-2026-002,CVL,Suraksha Fire Systems,STN-FIRE,civil_works,8060000,2026-02-27,2026-05-19,2026-08-02,closed
+PO-2026-003,CVL,Sahyadri Infra Builders,STN-ACS,civil_works,2730000,2026-03-28,2026-05-14,2026-03-11,closed
+PO-2026-004,TRP,Tejas Switchgear,PWR-SUB,equipment,18200000,2026-01-29,2026-01-29,2026-05-22,closed
+PO-2026-005,TRP,Konkan Power Systems,PWR-AUX,equipment,17680000,2026-01-29,2026-01-14,2026-03-07,closed
+PO-2026-006,TRP,Konkan Power Systems,PWR-DG,equipment,11700000,2026-02-07,2026-05-14,2026-09-04,closed
+PO-2026-007,TRP,Tejas Switchgear,PWR-FDR,equipment,3120000,2026-04-02,2026-06-20,,open
+PO-2026-008,TVS,Airflow Tunnel Tech,TVS-FAN,equipment,29900000,2026-01-29,2026-02-08,2026-05-13,closed
+PO-2026-009,TVS,Airflow Tunnel Tech,TVS-DCT,equipment,7020000,2026-03-13,2026-05-19,2026-08-12,closed
+PO-2026-010,TVS,Airflow Tunnel Tech,TVS-AHU,equipment,10140000,2026-05-13,2026-07-08,,open
+PO-2026-011,TVS,Airflow Tunnel Tech,TVS-PVF,equipment,8450000,2026-05-18,2026-07-30,,open
+PO-2026-012,RST,Bharat Rail Systems,SYSM-PSD,equipment,81203200,2026-02-25,2026-05-19,2026-07-21,closed
+PO-2026-013,RST,Bharat Rail Systems,SYSM-TRN,equipment,93350400,2026-04-09,2026-07-13,,open
+PO-2026-014,RST,Signalogic India,SIG-001,equipment,35100000,2026-01-29,2026-03-10,2026-07-05,closed
+PO-2026-015,OCC,Vistar Data Systems,OCC-001,equipment,41600000,2026-01-29,2026-02-18,2026-08-04,closed

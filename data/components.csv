@@ -1,0 +1,316 @@
+component_id,parent_component_id,component_name,component_type,owner_dept_id,quantity,unit_cost_inr,governing_task_id,status
+LNK-001,,Airport Link Station & Rolling Stock,system,PMU,1,0,,planned
+STN-001,LNK-001,Airport station structure,subsystem,CVL,1,0,CVL-07,tested
+STN-BOX,STN-001,Station box & concourse,assembly,CVL,1,12350000,CVL-04,installed
+STN-FIRE,STN-001,Fire detection & suppression,assembly,CVL,1,8060000,CVL-05,installed
+STN-ACS,STN-001,Access control & CCTV,assembly,CVL,1,2730000,CVL-06,installed
+PWR-001,LNK-001,Power supply system,subsystem,TRP,1,0,TRP-07,planned
+PWR-SUB,PWR-001,33 kV receiving substation,assembly,TRP,1,18200000,TRP-02,installed
+PWR-AUX,PWR-001,Auxiliary transformer,assembly,TRP,2,8840000,TRP-04,installed
+PWR-DG,PWR-001,DG backup set,assembly,TRP,1,11700000,TRP-06,installed
+PWR-FDR,PWR-001,Platform door feeders,assembly,TRP,1,0,TRP-05,in_progress
+TVS-001,LNK-001,Tunnel ventilation system,subsystem,TVS,1,0,TVS-06,planned
+TVS-FAN,TVS-001,Tunnel ventilation fans,assembly,TVS,2,14950000,TVS-02,installed
+TVS-DCT,TVS-001,Ventilation ducting,assembly,TVS,1,7020000,TVS-03,installed
+TVS-AHU,TVS-001,Station air handling unit,assembly,TVS,2,5070000,TVS-04,in_progress
+TVS-PVF,TVS-001,Platform ventilation,assembly,TVS,1,0,TVS-05,planned
+SIG-001,LNK-001,CBTC signalling,subsystem,RST,1,0,RST-10,planned
+SIG-ZC-01,SIG-001,Zone controller 1,part,RST,1,10140000,RST-09,installed
+SIG-ZC-02,SIG-001,Zone controller 2,part,RST,1,10140000,RST-09,installed
+OCC-001,LNK-001,OCC server cluster,subsystem,OCC,1,0,OCC-03,planned
+OCC-APP,OCC-001,Application servers,assembly,OCC,2,3380000,OCC-03,planned
+OCC-DB,OCC-001,Database servers,assembly,OCC,4,4030000,OCC-03,planned
+OCC-SAN,OCC-001,Storage arrays,assembly,OCC,6,3120000,OCC-03,planned
+SYSM-001,LNK-001,Platform & train systems,subsystem,RST,1,0,RST-05,planned
+SYSM-PSD,SYSM-001,Platform screen doors,assembly,RST,1,0,RST-05,planned
+SYSM-TRN,SYSM-001,Trainsets,assembly,RST,1,0,RST-07,planned
+SYSM-PSD-R1,SYSM-PSD,PSD set platform 1,unit,RST,1,0,RST-04,delivered
+PWR-FDR-R1,PWR-FDR,Door feeder platform 1,part,TRP,2,234000,TRP-05,in_progress
+TVS-PVF-R1,TVS-PVF,Ventilation fan set platform 1,part,TVS,1,1235000,TVS-05,planned
+SIG-CAB-R1,SIG-001,Platform signal cabinet 1,part,RST,1,2470000,RST-10,planned
+SYSM-PSD-R1-N01,SYSM-PSD-R1,PSD door 1-01,sub_unit,RST,1,0,,planned
+SYSM-PSD-R1-N01-MOT,SYSM-PSD-R1-N01,Door drive motor,part,RST,2,494000,,planned
+SYSM-PSD-R1-N01-SNS,SYSM-PSD-R1-N01,Obstacle sensor,part,RST,12,23400,,planned
+SYSM-PSD-R1-N02,SYSM-PSD-R1,PSD door 1-02,sub_unit,RST,1,0,,planned
+SYSM-PSD-R1-N02-MOT,SYSM-PSD-R1-N02,Door drive motor,part,RST,2,494000,,planned
+SYSM-PSD-R1-N02-SNS,SYSM-PSD-R1-N02,Obstacle sensor,part,RST,12,23400,,planned
+SYSM-PSD-R1-N03,SYSM-PSD-R1,PSD door 1-03,sub_unit,RST,1,0,,planned
+SYSM-PSD-R1-N03-MOT,SYSM-PSD-R1-N03,Door drive motor,part,RST,2,494000,,planned
+SYSM-PSD-R1-N03-SNS,SYSM-PSD-R1-N03,Obstacle sensor,part,RST,12,23400,,planned
+SYSM-PSD-R1-N04,SYSM-PSD-R1,PSD door 1-04,sub_unit,RST,1,0,,planned
+SYSM-PSD-R1-N04-MOT,SYSM-PSD-R1-N04,Door drive motor,part,RST,2,494000,,planned
+SYSM-PSD-R1-N04-SNS,SYSM-PSD-R1-N04,Obstacle sensor,part,RST,12,23400,,planned
+SYSM-PSD-R1-N05,SYSM-PSD-R1,PSD door 1-05,sub_unit,RST,1,0,,planned
+SYSM-PSD-R1-N05-MOT,SYSM-PSD-R1-N05,Door drive motor,part,RST,2,494000,,planned
+SYSM-PSD-R1-N05-SNS,SYSM-PSD-R1-N05,Obstacle sensor,part,RST,12,23400,,planned
+SYSM-PSD-R1-N06,SYSM-PSD-R1,PSD door 1-06,sub_unit,RST,1,0,,planned
+SYSM-PSD-R1-N06-MOT,SYSM-PSD-R1-N06,Door drive motor,part,RST,2,494000,,planned
+SYSM-PSD-R1-N06-SNS,SYSM-PSD-R1-N06,Obstacle sensor,part,RST,12,23400,,planned
+SYSM-PSD-R1-N07,SYSM-PSD-R1,PSD door 1-07,sub_unit,RST,1,0,,planned
+SYSM-PSD-R1-N07-MOT,SYSM-PSD-R1-N07,Door drive motor,part,RST,2,494000,,planned
+SYSM-PSD-R1-N07-SNS,SYSM-PSD-R1-N07,Obstacle sensor,part,RST,12,23400,,planned
+SYSM-PSD-R1-N08,SYSM-PSD-R1,PSD door 1-08,sub_unit,RST,1,0,,planned
+SYSM-PSD-R1-N08-MOT,SYSM-PSD-R1-N08,Door drive motor,part,RST,2,494000,,planned
+SYSM-PSD-R1-N08-SNS,SYSM-PSD-R1-N08,Obstacle sensor,part,RST,12,23400,,planned
+SYSM-PSD-R1-N09,SYSM-PSD-R1,PSD door 1-09,sub_unit,RST,1,0,,planned
+SYSM-PSD-R1-N09-MOT,SYSM-PSD-R1-N09,Door drive motor,part,RST,2,494000,,planned
+SYSM-PSD-R1-N09-SNS,SYSM-PSD-R1-N09,Obstacle sensor,part,RST,12,23400,,planned
+SYSM-PSD-R1-N10,SYSM-PSD-R1,PSD door 1-10,sub_unit,RST,1,0,,planned
+SYSM-PSD-R1-N10-MOT,SYSM-PSD-R1-N10,Door drive motor,part,RST,2,494000,,planned
+SYSM-PSD-R1-N10-SNS,SYSM-PSD-R1-N10,Obstacle sensor,part,RST,12,23400,,planned
+SYSM-PSD-R1-N11,SYSM-PSD-R1,PSD door 1-11,sub_unit,RST,1,0,,planned
+SYSM-PSD-R1-N11-MOT,SYSM-PSD-R1-N11,Door drive motor,part,RST,2,494000,,planned
+SYSM-PSD-R1-N11-SNS,SYSM-PSD-R1-N11,Obstacle sensor,part,RST,12,23400,,planned
+SYSM-PSD-R1-N12,SYSM-PSD-R1,PSD door 1-12,sub_unit,RST,1,0,,planned
+SYSM-PSD-R1-N12-MOT,SYSM-PSD-R1-N12,Door drive motor,part,RST,2,494000,,planned
+SYSM-PSD-R1-N12-SNS,SYSM-PSD-R1-N12,Obstacle sensor,part,RST,12,23400,,planned
+SYSM-PSD-R1-N13,SYSM-PSD-R1,PSD door 1-13,sub_unit,RST,1,0,,planned
+SYSM-PSD-R1-N13-MOT,SYSM-PSD-R1-N13,Door drive motor,part,RST,2,494000,,planned
+SYSM-PSD-R1-N13-SNS,SYSM-PSD-R1-N13,Obstacle sensor,part,RST,12,23400,,planned
+SYSM-PSD-R1-N14,SYSM-PSD-R1,PSD door 1-14,sub_unit,RST,1,0,,planned
+SYSM-PSD-R1-N14-MOT,SYSM-PSD-R1-N14,Door drive motor,part,RST,2,494000,,planned
+SYSM-PSD-R1-N14-SNS,SYSM-PSD-R1-N14,Obstacle sensor,part,RST,12,23400,,planned
+SYSM-PSD-R1-N15,SYSM-PSD-R1,PSD door 1-15,sub_unit,RST,1,0,,planned
+SYSM-PSD-R1-N15-MOT,SYSM-PSD-R1-N15,Door drive motor,part,RST,2,494000,,planned
+SYSM-PSD-R1-N15-SNS,SYSM-PSD-R1-N15,Obstacle sensor,part,RST,12,23400,,planned
+SYSM-PSD-R1-N16,SYSM-PSD-R1,PSD door 1-16,sub_unit,RST,1,0,,planned
+SYSM-PSD-R1-N16-MOT,SYSM-PSD-R1-N16,Door drive motor,part,RST,2,494000,,planned
+SYSM-PSD-R1-N16-SNS,SYSM-PSD-R1-N16,Obstacle sensor,part,RST,12,23400,,planned
+SYSM-PSD-R2,SYSM-PSD,PSD set platform 2,unit,RST,1,0,RST-04,installed
+PWR-FDR-R2,PWR-FDR,Door feeder platform 2,part,TRP,2,234000,TRP-05,in_progress
+TVS-PVF-R2,TVS-PVF,Ventilation fan set platform 2,part,TVS,1,1235000,TVS-05,ordered
+SIG-CAB-R2,SIG-001,Platform signal cabinet 2,part,RST,1,2470000,RST-10,planned
+SYSM-PSD-R2-N01,SYSM-PSD-R2,PSD door 2-01,sub_unit,RST,1,0,,planned
+SYSM-PSD-R2-N01-MOT,SYSM-PSD-R2-N01,Door drive motor,part,RST,2,494000,,planned
+SYSM-PSD-R2-N01-SNS,SYSM-PSD-R2-N01,Obstacle sensor,part,RST,12,23400,,planned
+SYSM-PSD-R2-N02,SYSM-PSD-R2,PSD door 2-02,sub_unit,RST,1,0,,planned
+SYSM-PSD-R2-N02-MOT,SYSM-PSD-R2-N02,Door drive motor,part,RST,2,494000,,planned
+SYSM-PSD-R2-N02-SNS,SYSM-PSD-R2-N02,Obstacle sensor,part,RST,12,23400,,planned
+SYSM-PSD-R2-N03,SYSM-PSD-R2,PSD door 2-03,sub_unit,RST,1,0,,planned
+SYSM-PSD-R2-N03-MOT,SYSM-PSD-R2-N03,Door drive motor,part,RST,2,494000,,planned
+SYSM-PSD-R2-N03-SNS,SYSM-PSD-R2-N03,Obstacle sensor,part,RST,12,23400,,planned
+SYSM-PSD-R2-N04,SYSM-PSD-R2,PSD door 2-04,sub_unit,RST,1,0,,planned
+SYSM-PSD-R2-N04-MOT,SYSM-PSD-R2-N04,Door drive motor,part,RST,2,494000,,planned
+SYSM-PSD-R2-N04-SNS,SYSM-PSD-R2-N04,Obstacle sensor,part,RST,12,23400,,planned
+SYSM-PSD-R2-N05,SYSM-PSD-R2,PSD door 2-05,sub_unit,RST,1,0,,planned
+SYSM-PSD-R2-N05-MOT,SYSM-PSD-R2-N05,Door drive motor,part,RST,2,494000,,planned
+SYSM-PSD-R2-N05-SNS,SYSM-PSD-R2-N05,Obstacle sensor,part,RST,12,23400,,planned
+SYSM-PSD-R2-N06,SYSM-PSD-R2,PSD door 2-06,sub_unit,RST,1,0,,planned
+SYSM-PSD-R2-N06-MOT,SYSM-PSD-R2-N06,Door drive motor,part,RST,2,494000,,planned
+SYSM-PSD-R2-N06-SNS,SYSM-PSD-R2-N06,Obstacle sensor,part,RST,12,23400,,planned
+SYSM-PSD-R2-N07,SYSM-PSD-R2,PSD door 2-07,sub_unit,RST,1,0,,planned
+SYSM-PSD-R2-N07-MOT,SYSM-PSD-R2-N07,Door drive motor,part,RST,2,494000,,planned
+SYSM-PSD-R2-N07-SNS,SYSM-PSD-R2-N07,Obstacle sensor,part,RST,12,23400,,planned
+SYSM-PSD-R2-N08,SYSM-PSD-R2,PSD door 2-08,sub_unit,RST,1,0,,planned
+SYSM-PSD-R2-N08-MOT,SYSM-PSD-R2-N08,Door drive motor,part,RST,2,494000,,planned
+SYSM-PSD-R2-N08-SNS,SYSM-PSD-R2-N08,Obstacle sensor,part,RST,12,23400,,planned
+SYSM-PSD-R2-N09,SYSM-PSD-R2,PSD door 2-09,sub_unit,RST,1,0,,planned
+SYSM-PSD-R2-N09-MOT,SYSM-PSD-R2-N09,Door drive motor,part,RST,2,494000,,planned
+SYSM-PSD-R2-N09-SNS,SYSM-PSD-R2-N09,Obstacle sensor,part,RST,12,23400,,planned
+SYSM-PSD-R2-N10,SYSM-PSD-R2,PSD door 2-10,sub_unit,RST,1,0,,planned
+SYSM-PSD-R2-N10-MOT,SYSM-PSD-R2-N10,Door drive motor,part,RST,2,494000,,planned
+SYSM-PSD-R2-N10-SNS,SYSM-PSD-R2-N10,Obstacle sensor,part,RST,12,23400,,planned
+SYSM-PSD-R2-N11,SYSM-PSD-R2,PSD door 2-11,sub_unit,RST,1,0,,planned
+SYSM-PSD-R2-N11-MOT,SYSM-PSD-R2-N11,Door drive motor,part,RST,2,494000,,planned
+SYSM-PSD-R2-N11-SNS,SYSM-PSD-R2-N11,Obstacle sensor,part,RST,12,23400,,planned
+SYSM-PSD-R2-N12,SYSM-PSD-R2,PSD door 2-12,sub_unit,RST,1,0,,planned
+SYSM-PSD-R2-N12-MOT,SYSM-PSD-R2-N12,Door drive motor,part,RST,2,494000,,planned
+SYSM-PSD-R2-N12-SNS,SYSM-PSD-R2-N12,Obstacle sensor,part,RST,12,23400,,planned
+SYSM-PSD-R2-N13,SYSM-PSD-R2,PSD door 2-13,sub_unit,RST,1,0,,planned
+SYSM-PSD-R2-N13-MOT,SYSM-PSD-R2-N13,Door drive motor,part,RST,2,494000,,planned
+SYSM-PSD-R2-N13-SNS,SYSM-PSD-R2-N13,Obstacle sensor,part,RST,12,23400,,planned
+SYSM-PSD-R2-N14,SYSM-PSD-R2,PSD door 2-14,sub_unit,RST,1,0,,planned
+SYSM-PSD-R2-N14-MOT,SYSM-PSD-R2-N14,Door drive motor,part,RST,2,494000,,planned
+SYSM-PSD-R2-N14-SNS,SYSM-PSD-R2-N14,Obstacle sensor,part,RST,12,23400,,planned
+SYSM-PSD-R2-N15,SYSM-PSD-R2,PSD door 2-15,sub_unit,RST,1,0,,planned
+SYSM-PSD-R2-N15-MOT,SYSM-PSD-R2-N15,Door drive motor,part,RST,2,494000,,planned
+SYSM-PSD-R2-N15-SNS,SYSM-PSD-R2-N15,Obstacle sensor,part,RST,12,23400,,planned
+SYSM-PSD-R2-N16,SYSM-PSD-R2,PSD door 2-16,sub_unit,RST,1,0,,planned
+SYSM-PSD-R2-N16-MOT,SYSM-PSD-R2-N16,Door drive motor,part,RST,2,494000,,planned
+SYSM-PSD-R2-N16-SNS,SYSM-PSD-R2-N16,Obstacle sensor,part,RST,12,23400,,planned
+SYSM-PSD-R3,SYSM-PSD,PSD set platform 3,unit,RST,1,0,RST-05,delivered
+PWR-FDR-R3,PWR-FDR,Door feeder platform 3,part,TRP,2,234000,TRP-05,in_progress
+TVS-PVF-R3,TVS-PVF,Ventilation fan set platform 3,part,TVS,1,1235000,TVS-05,planned
+SIG-CAB-R3,SIG-001,Platform signal cabinet 3,part,RST,1,2470000,RST-10,planned
+SYSM-PSD-R3-N01,SYSM-PSD-R3,PSD door 3-01,sub_unit,RST,1,0,,planned
+SYSM-PSD-R3-N01-MOT,SYSM-PSD-R3-N01,Door drive motor,part,RST,2,494000,,planned
+SYSM-PSD-R3-N01-SNS,SYSM-PSD-R3-N01,Obstacle sensor,part,RST,12,23400,,planned
+SYSM-PSD-R3-N02,SYSM-PSD-R3,PSD door 3-02,sub_unit,RST,1,0,,planned
+SYSM-PSD-R3-N02-MOT,SYSM-PSD-R3-N02,Door drive motor,part,RST,2,494000,,planned
+SYSM-PSD-R3-N02-SNS,SYSM-PSD-R3-N02,Obstacle sensor,part,RST,12,23400,,planned
+SYSM-PSD-R3-N03,SYSM-PSD-R3,PSD door 3-03,sub_unit,RST,1,0,,planned
+SYSM-PSD-R3-N03-MOT,SYSM-PSD-R3-N03,Door drive motor,part,RST,2,494000,,planned
+SYSM-PSD-R3-N03-SNS,SYSM-PSD-R3-N03,Obstacle sensor,part,RST,12,23400,,planned
+SYSM-PSD-R3-N04,SYSM-PSD-R3,PSD door 3-04,sub_unit,RST,1,0,,planned
+SYSM-PSD-R3-N04-MOT,SYSM-PSD-R3-N04,Door drive motor,part,RST,2,494000,,planned
+SYSM-PSD-R3-N04-SNS,SYSM-PSD-R3-N04,Obstacle sensor,part,RST,12,23400,,planned
+SYSM-PSD-R3-N05,SYSM-PSD-R3,PSD door 3-05,sub_unit,RST,1,0,,planned
+SYSM-PSD-R3-N05-MOT,SYSM-PSD-R3-N05,Door drive motor,part,RST,2,494000,,planned
+SYSM-PSD-R3-N05-SNS,SYSM-PSD-R3-N05,Obstacle sensor,part,RST,12,23400,,planned
+SYSM-PSD-R3-N06,SYSM-PSD-R3,PSD door 3-06,sub_unit,RST,1,0,,planned
+SYSM-PSD-R3-N06-MOT,SYSM-PSD-R3-N06,Door drive motor,part,RST,2,494000,,planned
+SYSM-PSD-R3-N06-SNS,SYSM-PSD-R3-N06,Obstacle sensor,part,RST,12,23400,,planned
+SYSM-PSD-R3-N07,SYSM-PSD-R3,PSD door 3-07,sub_unit,RST,1,0,,planned
+SYSM-PSD-R3-N07-MOT,SYSM-PSD-R3-N07,Door drive motor,part,RST,2,494000,,planned
+SYSM-PSD-R3-N07-SNS,SYSM-PSD-R3-N07,Obstacle sensor,part,RST,12,23400,,planned
+SYSM-PSD-R3-N08,SYSM-PSD-R3,PSD door 3-08,sub_unit,RST,1,0,,planned
+SYSM-PSD-R3-N08-MOT,SYSM-PSD-R3-N08,Door drive motor,part,RST,2,494000,,planned
+SYSM-PSD-R3-N08-SNS,SYSM-PSD-R3-N08,Obstacle sensor,part,RST,12,23400,,planned
+SYSM-PSD-R3-N09,SYSM-PSD-R3,PSD door 3-09,sub_unit,RST,1,0,,planned
+SYSM-PSD-R3-N09-MOT,SYSM-PSD-R3-N09,Door drive motor,part,RST,2,494000,,planned
+SYSM-PSD-R3-N09-SNS,SYSM-PSD-R3-N09,Obstacle sensor,part,RST,12,23400,,planned
+SYSM-PSD-R3-N10,SYSM-PSD-R3,PSD door 3-10,sub_unit,RST,1,0,,planned
+SYSM-PSD-R3-N10-MOT,SYSM-PSD-R3-N10,Door drive motor,part,RST,2,494000,,planned
+SYSM-PSD-R3-N10-SNS,SYSM-PSD-R3-N10,Obstacle sensor,part,RST,12,23400,,planned
+SYSM-PSD-R3-N11,SYSM-PSD-R3,PSD door 3-11,sub_unit,RST,1,0,,planned
+SYSM-PSD-R3-N11-MOT,SYSM-PSD-R3-N11,Door drive motor,part,RST,2,494000,,planned
+SYSM-PSD-R3-N11-SNS,SYSM-PSD-R3-N11,Obstacle sensor,part,RST,12,23400,,planned
+SYSM-PSD-R3-N12,SYSM-PSD-R3,PSD door 3-12,sub_unit,RST,1,0,,planned
+SYSM-PSD-R3-N12-MOT,SYSM-PSD-R3-N12,Door drive motor,part,RST,2,494000,,planned
+SYSM-PSD-R3-N12-SNS,SYSM-PSD-R3-N12,Obstacle sensor,part,RST,12,23400,,planned
+SYSM-PSD-R3-N13,SYSM-PSD-R3,PSD door 3-13,sub_unit,RST,1,0,,planned
+SYSM-PSD-R3-N13-MOT,SYSM-PSD-R3-N13,Door drive motor,part,RST,2,494000,,planned
+SYSM-PSD-R3-N13-SNS,SYSM-PSD-R3-N13,Obstacle sensor,part,RST,12,23400,,planned
+SYSM-PSD-R3-N14,SYSM-PSD-R3,PSD door 3-14,sub_unit,RST,1,0,,planned
+SYSM-PSD-R3-N14-MOT,SYSM-PSD-R3-N14,Door drive motor,part,RST,2,494000,,planned
+SYSM-PSD-R3-N14-SNS,SYSM-PSD-R3-N14,Obstacle sensor,part,RST,12,23400,,planned
+SYSM-PSD-R3-N15,SYSM-PSD-R3,PSD door 3-15,sub_unit,RST,1,0,,planned
+SYSM-PSD-R3-N15-MOT,SYSM-PSD-R3-N15,Door drive motor,part,RST,2,494000,,planned
+SYSM-PSD-R3-N15-SNS,SYSM-PSD-R3-N15,Obstacle sensor,part,RST,12,23400,,planned
+SYSM-PSD-R3-N16,SYSM-PSD-R3,PSD door 3-16,sub_unit,RST,1,0,,planned
+SYSM-PSD-R3-N16-MOT,SYSM-PSD-R3-N16,Door drive motor,part,RST,2,494000,,planned
+SYSM-PSD-R3-N16-SNS,SYSM-PSD-R3-N16,Obstacle sensor,part,RST,12,23400,,planned
+SYSM-PSD-R4,SYSM-PSD,PSD set platform 4,unit,RST,1,0,RST-05,delivered
+PWR-FDR-R4,PWR-FDR,Door feeder platform 4,part,TRP,2,234000,TRP-05,in_progress
+TVS-PVF-R4,TVS-PVF,Ventilation fan set platform 4,part,TVS,1,1235000,TVS-05,planned
+SIG-CAB-R4,SIG-001,Platform signal cabinet 4,part,RST,1,2470000,RST-10,planned
+SYSM-PSD-R4-N01,SYSM-PSD-R4,PSD door 4-01,sub_unit,RST,1,0,,planned
+SYSM-PSD-R4-N01-MOT,SYSM-PSD-R4-N01,Door drive motor,part,RST,2,494000,,planned
+SYSM-PSD-R4-N01-SNS,SYSM-PSD-R4-N01,Obstacle sensor,part,RST,12,23400,,planned
+SYSM-PSD-R4-N02,SYSM-PSD-R4,PSD door 4-02,sub_unit,RST,1,0,,planned
+SYSM-PSD-R4-N02-MOT,SYSM-PSD-R4-N02,Door drive motor,part,RST,2,494000,,planned
+SYSM-PSD-R4-N02-SNS,SYSM-PSD-R4-N02,Obstacle sensor,part,RST,12,23400,,planned
+SYSM-PSD-R4-N03,SYSM-PSD-R4,PSD door 4-03,sub_unit,RST,1,0,,planned
+SYSM-PSD-R4-N03-MOT,SYSM-PSD-R4-N03,Door drive motor,part,RST,2,494000,,planned
+SYSM-PSD-R4-N03-SNS,SYSM-PSD-R4-N03,Obstacle sensor,part,RST,12,23400,,planned
+SYSM-PSD-R4-N04,SYSM-PSD-R4,PSD door 4-04,sub_unit,RST,1,0,,planned
+SYSM-PSD-R4-N04-MOT,SYSM-PSD-R4-N04,Door drive motor,part,RST,2,494000,,planned
+SYSM-PSD-R4-N04-SNS,SYSM-PSD-R4-N04,Obstacle sensor,part,RST,12,23400,,planned
+SYSM-PSD-R4-N05,SYSM-PSD-R4,PSD door 4-05,sub_unit,RST,1,0,,planned
+SYSM-PSD-R4-N05-MOT,SYSM-PSD-R4-N05,Door drive motor,part,RST,2,494000,,planned
+SYSM-PSD-R4-N05-SNS,SYSM-PSD-R4-N05,Obstacle sensor,part,RST,12,23400,,planned
+SYSM-PSD-R4-N06,SYSM-PSD-R4,PSD door 4-06,sub_unit,RST,1,0,,planned
+SYSM-PSD-R4-N06-MOT,SYSM-PSD-R4-N06,Door drive motor,part,RST,2,494000,,planned
+SYSM-PSD-R4-N06-SNS,SYSM-PSD-R4-N06,Obstacle sensor,part,RST,12,23400,,planned
+SYSM-PSD-R4-N07,SYSM-PSD-R4,PSD door 4-07,sub_unit,RST,1,0,,planned
+SYSM-PSD-R4-N07-MOT,SYSM-PSD-R4-N07,Door drive motor,part,RST,2,494000,,planned
+SYSM-PSD-R4-N07-SNS,SYSM-PSD-R4-N07,Obstacle sensor,part,RST,12,23400,,planned
+SYSM-PSD-R4-N08,SYSM-PSD-R4,PSD door 4-08,sub_unit,RST,1,0,,planned
+SYSM-PSD-R4-N08-MOT,SYSM-PSD-R4-N08,Door drive motor,part,RST,2,494000,,planned
+SYSM-PSD-R4-N08-SNS,SYSM-PSD-R4-N08,Obstacle sensor,part,RST,12,23400,,planned
+SYSM-PSD-R4-N09,SYSM-PSD-R4,PSD door 4-09,sub_unit,RST,1,0,,planned
+SYSM-PSD-R4-N09-MOT,SYSM-PSD-R4-N09,Door drive motor,part,RST,2,494000,,planned
+SYSM-PSD-R4-N09-SNS,SYSM-PSD-R4-N09,Obstacle sensor,part,RST,12,23400,,planned
+SYSM-PSD-R4-N10,SYSM-PSD-R4,PSD door 4-10,sub_unit,RST,1,0,,planned
+SYSM-PSD-R4-N10-MOT,SYSM-PSD-R4-N10,Door drive motor,part,RST,2,494000,,planned
+SYSM-PSD-R4-N10-SNS,SYSM-PSD-R4-N10,Obstacle sensor,part,RST,12,23400,,planned
+SYSM-PSD-R4-N11,SYSM-PSD-R4,PSD door 4-11,sub_unit,RST,1,0,,planned
+SYSM-PSD-R4-N11-MOT,SYSM-PSD-R4-N11,Door drive motor,part,RST,2,494000,,planned
+SYSM-PSD-R4-N11-SNS,SYSM-PSD-R4-N11,Obstacle sensor,part,RST,12,23400,,planned
+SYSM-PSD-R4-N12,SYSM-PSD-R4,PSD door 4-12,sub_unit,RST,1,0,,planned
+SYSM-PSD-R4-N12-MOT,SYSM-PSD-R4-N12,Door drive motor,part,RST,2,494000,,planned
+SYSM-PSD-R4-N12-SNS,SYSM-PSD-R4-N12,Obstacle sensor,part,RST,12,23400,,planned
+SYSM-PSD-R4-N13,SYSM-PSD-R4,PSD door 4-13,sub_unit,RST,1,0,,planned
+SYSM-PSD-R4-N13-MOT,SYSM-PSD-R4-N13,Door drive motor,part,RST,2,494000,,planned
+SYSM-PSD-R4-N13-SNS,SYSM-PSD-R4-N13,Obstacle sensor,part,RST,12,23400,,planned
+SYSM-PSD-R4-N14,SYSM-PSD-R4,PSD door 4-14,sub_unit,RST,1,0,,planned
+SYSM-PSD-R4-N14-MOT,SYSM-PSD-R4-N14,Door drive motor,part,RST,2,494000,,planned
+SYSM-PSD-R4-N14-SNS,SYSM-PSD-R4-N14,Obstacle sensor,part,RST,12,23400,,planned
+SYSM-PSD-R4-N15,SYSM-PSD-R4,PSD door 4-15,sub_unit,RST,1,0,,planned
+SYSM-PSD-R4-N15-MOT,SYSM-PSD-R4-N15,Door drive motor,part,RST,2,494000,,planned
+SYSM-PSD-R4-N15-SNS,SYSM-PSD-R4-N15,Obstacle sensor,part,RST,12,23400,,planned
+SYSM-PSD-R4-N16,SYSM-PSD-R4,PSD door 4-16,sub_unit,RST,1,0,,planned
+SYSM-PSD-R4-N16-MOT,SYSM-PSD-R4-N16,Door drive motor,part,RST,2,494000,,planned
+SYSM-PSD-R4-N16-SNS,SYSM-PSD-R4-N16,Obstacle sensor,part,RST,12,23400,,planned
+SYSM-TRN-R1,SYSM-TRN,Trainset 1,unit,RST,1,0,RST-07,ordered
+PWR-FDR-G1,PWR-FDR,Depot feeder trainset 1,part,TRP,2,312000,TRP-05,in_progress
+TVS-PVF-G1,TVS-PVF,Depot ventilation bay 1,part,TVS,1,1755000,TVS-05,planned
+SIG-CAB-G1,SIG-001,Depot signal cabinet 1,part,RST,1,2470000,RST-10,planned
+SYSM-TRN-R1-N01,SYSM-TRN-R1,Car 1-01,sub_unit,RST,1,0,,planned
+SYSM-TRN-R1-N01-MOT,SYSM-TRN-R1-N01,Bogie,part,RST,2,390000,,planned
+SYSM-TRN-R1-N01-TM,SYSM-TRN-R1-N01,Traction motor,part,RST,4,1170000,,planned
+SYSM-TRN-R1-N01-SNS,SYSM-TRN-R1-N01,Seat module,part,RST,16,23400,,planned
+SYSM-TRN-R1-N02,SYSM-TRN-R1,Car 1-02,sub_unit,RST,1,0,,planned
+SYSM-TRN-R1-N02-MOT,SYSM-TRN-R1-N02,Bogie,part,RST,2,390000,,planned
+SYSM-TRN-R1-N02-TM,SYSM-TRN-R1-N02,Traction motor,part,RST,4,1170000,,planned
+SYSM-TRN-R1-N02-SNS,SYSM-TRN-R1-N02,Seat module,part,RST,16,23400,,planned
+SYSM-TRN-R1-N03,SYSM-TRN-R1,Car 1-03,sub_unit,RST,1,0,,planned
+SYSM-TRN-R1-N03-MOT,SYSM-TRN-R1-N03,Bogie,part,RST,2,390000,,planned
+SYSM-TRN-R1-N03-TM,SYSM-TRN-R1-N03,Traction motor,part,RST,4,1170000,,planned
+SYSM-TRN-R1-N03-SNS,SYSM-TRN-R1-N03,Seat module,part,RST,16,23400,,planned
+SYSM-TRN-R1-N04,SYSM-TRN-R1,Car 1-04,sub_unit,RST,1,0,,planned
+SYSM-TRN-R1-N04-MOT,SYSM-TRN-R1-N04,Bogie,part,RST,2,390000,,planned
+SYSM-TRN-R1-N04-TM,SYSM-TRN-R1-N04,Traction motor,part,RST,4,1170000,,planned
+SYSM-TRN-R1-N04-SNS,SYSM-TRN-R1-N04,Seat module,part,RST,16,23400,,planned
+SYSM-TRN-R1-N05,SYSM-TRN-R1,Car 1-05,sub_unit,RST,1,0,,planned
+SYSM-TRN-R1-N05-MOT,SYSM-TRN-R1-N05,Bogie,part,RST,2,390000,,planned
+SYSM-TRN-R1-N05-TM,SYSM-TRN-R1-N05,Traction motor,part,RST,4,1170000,,planned
+SYSM-TRN-R1-N05-SNS,SYSM-TRN-R1-N05,Seat module,part,RST,16,23400,,planned
+SYSM-TRN-R1-N06,SYSM-TRN-R1,Car 1-06,sub_unit,RST,1,0,,planned
+SYSM-TRN-R1-N06-MOT,SYSM-TRN-R1-N06,Bogie,part,RST,2,390000,,planned
+SYSM-TRN-R1-N06-TM,SYSM-TRN-R1-N06,Traction motor,part,RST,4,1170000,,planned
+SYSM-TRN-R1-N06-SNS,SYSM-TRN-R1-N06,Seat module,part,RST,16,23400,,planned
+SYSM-TRN-R1-N07,SYSM-TRN-R1,Car 1-07,sub_unit,RST,1,0,,planned
+SYSM-TRN-R1-N07-MOT,SYSM-TRN-R1-N07,Bogie,part,RST,2,390000,,planned
+SYSM-TRN-R1-N07-TM,SYSM-TRN-R1-N07,Traction motor,part,RST,4,1170000,,planned
+SYSM-TRN-R1-N07-SNS,SYSM-TRN-R1-N07,Seat module,part,RST,16,23400,,planned
+SYSM-TRN-R1-N08,SYSM-TRN-R1,Car 1-08,sub_unit,RST,1,0,,planned
+SYSM-TRN-R1-N08-MOT,SYSM-TRN-R1-N08,Bogie,part,RST,2,390000,,planned
+SYSM-TRN-R1-N08-TM,SYSM-TRN-R1-N08,Traction motor,part,RST,4,1170000,,planned
+SYSM-TRN-R1-N08-SNS,SYSM-TRN-R1-N08,Seat module,part,RST,16,23400,,planned
+SYSM-TRN-R2,SYSM-TRN,Trainset 2,unit,RST,1,0,RST-07,ordered
+PWR-FDR-G2,PWR-FDR,Depot feeder trainset 2,part,TRP,2,312000,TRP-05,in_progress
+TVS-PVF-G2,TVS-PVF,Depot ventilation bay 2,part,TVS,1,1755000,TVS-05,planned
+SIG-CAB-G2,SIG-001,Depot signal cabinet 2,part,RST,1,2470000,RST-10,planned
+SYSM-TRN-R2-N01,SYSM-TRN-R2,Car 2-01,sub_unit,RST,1,0,,planned
+SYSM-TRN-R2-N01-MOT,SYSM-TRN-R2-N01,Bogie,part,RST,2,390000,,planned
+SYSM-TRN-R2-N01-TM,SYSM-TRN-R2-N01,Traction motor,part,RST,4,1170000,,planned
+SYSM-TRN-R2-N01-SNS,SYSM-TRN-R2-N01,Seat module,part,RST,16,23400,,planned
+SYSM-TRN-R2-N02,SYSM-TRN-R2,Car 2-02,sub_unit,RST,1,0,,planned
+SYSM-TRN-R2-N02-MOT,SYSM-TRN-R2-N02,Bogie,part,RST,2,390000,,planned
+SYSM-TRN-R2-N02-TM,SYSM-TRN-R2-N02,Traction motor,part,RST,4,1170000,,planned
+SYSM-TRN-R2-N02-SNS,SYSM-TRN-R2-N02,Seat module,part,RST,16,23400,,planned
+SYSM-TRN-R2-N03,SYSM-TRN-R2,Car 2-03,sub_unit,RST,1,0,,planned
+SYSM-TRN-R2-N03-MOT,SYSM-TRN-R2-N03,Bogie,part,RST,2,390000,,planned
+SYSM-TRN-R2-N03-TM,SYSM-TRN-R2-N03,Traction motor,part,RST,4,1170000,,planned
+SYSM-TRN-R2-N03-SNS,SYSM-TRN-R2-N03,Seat module,part,RST,16,23400,,planned
+SYSM-TRN-R2-N04,SYSM-TRN-R2,Car 2-04,sub_unit,RST,1,0,,planned
+SYSM-TRN-R2-N04-MOT,SYSM-TRN-R2-N04,Bogie,part,RST,2,390000,,planned
+SYSM-TRN-R2-N04-TM,SYSM-TRN-R2-N04,Traction motor,part,RST,4,1170000,,planned
+SYSM-TRN-R2-N04-SNS,SYSM-TRN-R2-N04,Seat module,part,RST,16,23400,,planned
+SYSM-TRN-R2-N05,SYSM-TRN-R2,Car 2-05,sub_unit,RST,1,0,,planned
+SYSM-TRN-R2-N05-MOT,SYSM-TRN-R2-N05,Bogie,part,RST,2,390000,,planned
+SYSM-TRN-R2-N05-TM,SYSM-TRN-R2-N05,Traction motor,part,RST,4,1170000,,planned
+SYSM-TRN-R2-N05-SNS,SYSM-TRN-R2-N05,Seat module,part,RST,16,23400,,planned
+SYSM-TRN-R2-N06,SYSM-TRN-R2,Car 2-06,sub_unit,RST,1,0,,planned
+SYSM-TRN-R2-N06-MOT,SYSM-TRN-R2-N06,Bogie,part,RST,2,390000,,planned
+SYSM-TRN-R2-N06-TM,SYSM-TRN-R2-N06,Traction motor,part,RST,4,1170000,,planned
+SYSM-TRN-R2-N06-SNS,SYSM-TRN-R2-N06,Seat module,part,RST,16,23400,,planned
+SYSM-TRN-R2-N07,SYSM-TRN-R2,Car 2-07,sub_unit,RST,1,0,,planned
+SYSM-TRN-R2-N07-MOT,SYSM-TRN-R2-N07,Bogie,part,RST,2,390000,,planned
+SYSM-TRN-R2-N07-TM,SYSM-TRN-R2-N07,Traction motor,part,RST,4,1170000,,planned
+SYSM-TRN-R2-N07-SNS,SYSM-TRN-R2-N07,Seat module,part,RST,16,23400,,planned
+SYSM-TRN-R2-N08,SYSM-TRN-R2,Car 2-08,sub_unit,RST,1,0,,planned
+SYSM-TRN-R2-N08-MOT,SYSM-TRN-R2-N08,Bogie,part,RST,2,390000,,planned
+SYSM-TRN-R2-N08-TM,SYSM-TRN-R2-N08,Traction motor,part,RST,4,1170000,,planned
+SYSM-TRN-R2-N08-SNS,SYSM-TRN-R2-N08,Seat module,part,RST,16,23400,,planned
+SCD-001,LNK-001,Control software,subsystem,OCC,1,0,OCC-08,planned
+SCD-BASE,SCD-001,SCADA baseline,assembly,OCC,1,0,OCC-04,installed
+SCD-ATS,SCD-001,Automatic train supervision,assembly,OCC,1,0,OCC-05,planned
+SCD-DASH,SCD-001,Station SCADA dashboards,assembly,OCC,1,0,OCC-06,in_progress
+SCD-AFC,SCD-001,Ticketing & passenger info,assembly,OCC,1,0,OCC-07,planned
+OPS-001,LNK-001,Operational readiness,subsystem,OPS,1,0,OPS-05,planned
+OPS-SOP,OPS-001,Operating rules & SOPs,assembly,OPS,1,0,OPS-02,in_progress
+OPS-CERT,OPS-001,Staff certification programme,assembly,OPS,1,0,OPS-03,in_progress
+OPS-TRIAL,OPS-001,Integrated trial runs,assembly,OPS,1,0,OPS-04,planned
+SIG-BAL-99,SIG-ZC-09,Balise lot,part,RST,96,38000,,delivered

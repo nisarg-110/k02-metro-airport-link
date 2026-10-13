@@ -1,0 +1,259 @@
+expense_id,dept_id,allocation_id,category,po_id,vendor,amount_inr,expense_date,description,invoice_no,requested_by,approved_by
+EX00213,PMU,AL113,travel,,,74509,2025-10-24,Factory acceptance test visit,INV/GEN/48112,R059,R058
+EX00219,PMU,AL113,travel,,,113257,2025-10-27,Factory acceptance test visit,INV/GEN/10501,R061,R058
+EX00227,OPS,AL121,software_licences,,Signalogic India,504980,2025-10-27,Design software licence,INV/SIG/45965,R051,R047
+EX00154,TVS,AL045,travel,,,72417,2025-10-28,Factory acceptance test visit,INV/GEN/60325,R023,R016
+EX00233,OPS,AL121,software_licences,,Signalogic India,334226,2025-10-29,Simulation software licence,INV/SIG/38536,R053,R047
+EX00027,CVL,AL005,manpower,,,299000,2025-10-31,Project staff salaries Oct 2025,PAY/CVL/202510,R005,R058
+EX00028,TRP,AL021,manpower,,,169000,2025-10-31,Project staff salaries Oct 2025,PAY/TRP/202510,R014,R058
+EX00029,TVS,AL037,manpower,,,384000,2025-10-31,Project staff salaries Oct 2025,PAY/TVS/202510,R019,R058
+EX00030,RST,AL053,manpower,,,343000,2025-10-31,Project staff salaries Oct 2025,PAY/RST/202510,R029,R058
+EX00031,OCC,AL069,manpower,,,253000,2025-10-31,Project staff salaries Oct 2025,PAY/OCC/202510,R045,R058
+EX00032,OPS,AL081,manpower,,,257000,2025-10-31,Project staff salaries Oct 2025,PAY/OPS/202510,R047,R058
+EX00033,CPC,AL093,manpower,,,85000,2025-10-31,Project staff salaries Oct 2025,PAY/CPC/202510,R056,R058
+EX00034,PMU,AL105,manpower,,,45000,2025-10-31,Project staff salaries Oct 2025,PAY/PMU/202510,R059,R058
+EX00184,OCC,AL077,travel,,,171065,2025-11-03,Factory acceptance test visit,INV/GEN/8553,R037,R036
+EX00211,PMU,AL109,consumables,,Signalogic India,104205,2025-11-03,Test instruments,INV/SIG/94782,R058,R058
+EX00137,TRP,AL025,consumables,,Railtel Components,17198,2025-11-15,Test instruments,INV/RAI/28196,R015,R008
+EX00160,RST,AL057,consumables,,Vistar Data Systems,125896,2025-11-15,Site consumables,INV/VIS/60888,R025,R024
+EX00208,CPC,AL101,travel,,,144875,2025-11-17,Rolling stock inspection,INV/GEN/7439,R056,R055
+EX00148,TVS,AL041,consumables,,Signalogic India,51681,2025-11-23,Site consumables,INV/SIG/57459,R019,R016
+EX00199,CPC,AL097,consumables,,Airflow Tunnel Tech,63242,2025-11-23,Spares,INV/AIR/12443,R057,R055
+EX00131,TRP,AL025,consumables,,Airflow Tunnel Tech,93913,2025-11-29,Cables & glands,INV/AIR/47353,R009,R008
+EX00218,PMU,AL113,travel,,,79554,2025-11-29,Ministry review meeting,INV/GEN/54171,R058,R058
+EX00228,OPS,AL121,software_licences,,Suraksha Fire Systems,116624,2025-11-29,Simulation software licence,INV/SUR/10935,R052,R047
+EX00035,CVL,AL005,manpower,,,341000,2025-11-30,Project staff salaries Nov 2025,PAY/CVL/202511,R004,R058
+EX00036,TRP,AL021,manpower,,,253000,2025-11-30,Project staff salaries Nov 2025,PAY/TRP/202511,R013,R058
+EX00037,TVS,AL037,manpower,,,426000,2025-11-30,Project staff salaries Nov 2025,PAY/TVS/202511,R017,R058
+EX00038,RST,AL053,manpower,,,388000,2025-11-30,Project staff salaries Nov 2025,PAY/RST/202511,R027,R058
+EX00039,OCC,AL069,manpower,,,253000,2025-11-30,Project staff salaries Nov 2025,PAY/OCC/202511,R040,R058
+EX00040,OPS,AL081,manpower,,,299000,2025-11-30,Project staff salaries Nov 2025,PAY/OPS/202511,R052,R058
+EX00041,CPC,AL093,manpower,,,85000,2025-11-30,Project staff salaries Nov 2025,PAY/CPC/202511,R057,R058
+EX00042,PMU,AL105,manpower,,,45000,2025-11-30,Project staff salaries Nov 2025,PAY/PMU/202511,R060,R058
+EX00201,CPC,AL097,consumables,,Vistar Data Systems,146431,2025-11-30,Cables & glands,INV/VIS/86742,R056,R055
+EX00139,TRP,AL025,consumables,,Suraksha Fire Systems,146086,2025-12-11,Cables & glands,INV/SUR/49925,R013,R008
+EX00174,OCC,AL073,consumables,,Airflow Tunnel Tech,147847,2025-12-11,Cables & glands,INV/AIR/79473,R045,R036
+EX00146,TVS,AL041,consumables,,Signalogic India,169352,2025-12-13,Site consumables,INV/SIG/32390,R021,R016
+EX00178, OCC ,AL073,consumables,,Bharat Rail Systems,19486,2025-12-15,Cables & glands,INV/BHA/76323,R046,R036
+EX00132,TRP,AL025,consumables,,Sahyadri Infra Builders,15652,2025-12-18,Test instruments,INV/SAH/82461,R009,R008
+EX00231,OPS,AL121,software_licences,,Airflow Tunnel Tech,265703,2025-12-24,Simulation software licence,INV/AIR/20965,R049,R047
+EX00120,CVL,AL009,consumables,,Signalogic India,70872,2025-12-25,Site consumables,INV/SIG/36735,R007,R001
+EX00136,TRP,AL025,consumables,,Suraksha Fire Systems,120535,2025-12-26,Spares,INV/SUR/45538,R009,R008
+EX00226,OPS,AL121,software_licences,,Railtel Components,324772,2025-12-27,SCADA licence,INV/RAI/13126,R051,R047
+EX00179,OCC,AL073,consumables,,Airflow Tunnel Tech,15258,2025-12-30,Cables & glands,INV/AIR/23993,R042,R036
+EX00043,CVL,AL005,manpower,,,341000,2025-12-31,Project staff salaries Dec 2025,PAY/CVL/202512,R003,R058
+EX00044,TRP,AL021,manpower,,,253000,2025-12-31,Project staff salaries Dec 2025,PAY/TRP/202512,R011,R058
+EX00045,TVS,AL037,manpower,,,426000,2025-12-31,Project staff salaries Dec 2025,PAY/TVS/202512,R022,R058
+EX00046,RST,AL053,manpower,,,388000,2025-12-31,Project staff salaries Dec 2025,PAY/RST/202512,R027,R058
+EX00047,OCC,AL069,manpower,,,253000,2025-12-31,Project staff salaries Dec 2025,PAY/OCC/202512,R046,R058
+EX00048,OPS,AL081,manpower,,,299000,2025-12-31,Project staff salaries Dec 2025,PAY/OPS/202512,R047,R058
+EX00049,CPC,AL093,manpower,,,85000,2025-12-31,Project staff salaries Dec 2025,PAY/CPC/202512,R055,R058
+EX00050,PMU,AL105,manpower,,,45000,2025-12-31,Project staff salaries Dec 2025,PAY/PMU/202512,R058,R058
+EX00169,RST,AL061,travel,,,26825,2026-01-04,Ministry review meeting,INV/GEN/93497,R025,R024
+EX00200,CPC,AL097,consumables,,Suraksha Fire Systems,129758,2026-01-05,Spares,INV/SUR/79759,R057,R055
+EX00202,CPC,AL097,consumables,,Sahyadri Infra Builders,31424,2026-01-07,Test instruments,INV/SAH/13281,R057,R055
+EX00159,RST,AL057,consumables,,Sahyadri Infra Builders,169185,2026-01-10,Spares,INV/SAH/53372,R032,R024
+EX00128,CVL,AL013,travel,,,173997,2026-01-11,Ministry review meeting,INV/GEN/32041,R001,R001
+EX00156,TVS,AL045,travel,,,81835,2026-01-15,Ministry review meeting,INV/GEN/42477,R018,R016
+EX00122,CVL,AL009,consumables,,Tejas Switchgear,41369,2026-01-20,Spares,INV/TEJ/24467,R003,R001
+EX00158,RST,AL057,consumables,,Konkan Power Systems,102242,2026-01-21,Cables & glands,INV/KON/37694,R024,R024
+EX00167,RST,AL061,travel,,,100759,2026-01-26,Factory acceptance test visit,INV/GEN/27718,R024,R024
+EX00117,CVL,AL009,consumables,,Suraksha Fire Systems,158410,2026-01-28,Cables & glands,INV/SUR/82415,R003,R001
+EX00051,CVL,AL005,manpower,,,341000,2026-01-31,Project staff salaries Jan 2026,PAY/CVL/202601,R007,R058
+EX00052,TRP,AL021,manpower,,,338000,2026-01-31,Project staff salaries Jan 2026,PAY/TRP/202601,R013,R058
+EX00053,TVS,AL037,manpower,,,426000,2026-01-31,Project staff salaries Jan 2026,PAY/TVS/202601,R022,R058
+EX00054,RST,AL053,manpower,,,475000,2026-01-31,Project staff salaries Jan 2026,PAY/RST/202601,R034,R058
+EX00055,OCC,AL069,manpower,,,340000,2026-01-31,Project staff salaries Jan 2026,PAY/OCC/202601,R045,R058
+EX00056,OPS,AL081,manpower,,,384000,2026-01-31,Project staff salaries Jan 2026,PAY/OPS/202601,R053,R058
+EX00057,CPC,AL093,manpower,,,85000,2026-01-31,Project staff salaries Jan 2026,PAY/CPC/202601,R057,R058
+EX00058,PMU,AL105,manpower,,,45000,2026-01-31,Project staff salaries Jan 2026,PAY/PMU/202601,R061,R058
+EX00187,OCC,AL077,travel,,,178773,2026-02-01,Factory acceptance test visit,INV/GEN/31762,R036,R036
+EX00025,OCC,AL065,equipment,PO-2026-015,Vistar Data Systems,12480000,2026-02-05,Advance 30% - OCC server cluster,INV/VIS/67281,R041,R036
+EX00009,TRP,AL017,equipment,PO-2026-005,Konkan Power Systems,5304000,2026-02-07,Advance 30% - Auxiliary transformer,INV/KON/26227,R014,R008
+EX00001,CVL,AL001,civil_works,PO-2026-001,Sahyadri Infra Builders,3705000,2026-02-11,Advance 30% - Station box & concourse,INV/SAH/27303,R004,R001
+EX00203,CPC,AL101,travel,,,11325,2026-02-11,Rolling stock inspection,INV/GEN/60635,R056,R055
+EX00135,TRP,AL025,consumables,,Konkan Power Systems,146049,2026-02-12,Site consumables,INV/KON/89623,R015,R008
+EX00214,PMU,AL113,travel,,,60394,2026-02-12,Rolling stock inspection,INV/GEN/68280,R059,R058
+EX00014,TVS,AL033,equipment,PO-2026-008,Airflow Tunnel Tech,8970000,2026-02-14,Advance 30% - Tunnel ventilation fans,INV/AIR/68560,R016,R016
+EX00007,TRP,AL017,equipment,PO-2026-004,Tejas Switchgear,5460000,2026-02-15,Advance 30% - 33 kV receiving substation,INV/TEJ/68399,R012,R008
+EX00232,OPS,AL121,software_licences,,Signalogic India,244864,2026-02-15,Design software licence,INV/SIG/60096,R053,R047
+EX00023,RST,AL049,equipment,PO-2026-014,Signalogic India,10530000,2026-02-16,Advance 30% - CBTC signalling,INV/SIG/6944,R024,R024
+EX00011,TRP,AL017,equipment,PO-2026-006,Konkan Power Systems,3510000,2026-02-17,Advance 30% - DG backup set,INV/KON/95408,R009,R008
+EX00121,CVL,AL009,consumables,,Tejas Switchgear,130146,2026-02-19,Site consumables,INV/TEJ/75969,R005,R001
+EX00220,OCC,AL117,software_licences,,Sahyadri Infra Builders,545888,2026-02-20,Design software licence,INV/SAH/23047,R039,R036
+EX00176,OCC,AL073,consumables,,Sahyadri Infra Builders,49345,2026-02-21,Cables & glands,INV/SAH/77083,R038,R036
+EX00173,OCC,AL073,consumables,,Signalogic India,82790,2026-02-24,Spares,INV/SIG/81997,R037,R036
+EX00145,TVS,AL041,consumables,,Suraksha Fire Systems,179137,2026-02-25,Test instruments,INV/SUR/6906,R023,R016
+EX00195,OPS,AL089,travel,,,173262,2026-02-25,Ministry review meeting,INV/GEN/3247,R053,R047
+EX00059,CVL,AL005,manpower,,,341000,2026-02-28,Project staff salaries Feb 2026,PAY/CVL/202602,R002,R058
+EX00060,TRP,AL021,manpower,,,338000,2026-02-28,Project staff salaries Feb 2026,PAY/TRP/202602,R009,R058
+EX00061,TVS,AL037,manpower,,,426000,2026-02-28,Project staff salaries Feb 2026,PAY/TVS/202602,R018,R058
+EX00062,RST,AL053,manpower,,,475000,2026-02-28,Project staff salaries Feb 2026,PAY/RST/202602,R027,R058
+EX00063,OCC,AL069,manpower,,,340000,2026-02-28,Project staff salaries Feb 2026,PAY/OCC/202602,R039,R058
+EX00064,OPS,AL081,manpower,,,384000,2026-02-28,Project staff salaries Feb 2026,PAY/OPS/202602,R053,R058
+EX00065,CPC,AL093,manpower,,,85000,2026-02-28,Project staff salaries Feb 2026,PAY/CPC/202602,R057,R058
+EX00066,PMU,AL105,manpower,,,45000,2026-02-28,Project staff salaries Feb 2026,PAY/PMU/202602,R058,R058
+EX00186,OCC,AL077,travel,,,102058,2026-03-03,Factory acceptance test visit,INV/GEN/72256,R044,R036
+EX00215,PMU,AL113,travel,,,32249,2026-03-06,Rolling stock inspection,INV/GEN/88731,R058,R058
+EX00020,RST,AL049,equipment,PO-2026-012,Bharat Rail Systems,24360960,2026-03-07,Advance 30% - Platform screen doors,INV/BHA/12337,R026,R024
+EX00150,TVS,AL041,consumables,,Suraksha Fire Systems,11436,2026-03-11,Cables & glands,INV/SUR/5994,R018,R016
+EX00155,TVS,AL045,travel,,,54893,2026-03-11,Rolling stock inspection,INV/GEN/91661,R018,R016
+EX00003,CVL,AL001,civil_works,PO-2026-002,Suraksha Fire Systems,2418000,2026-03-12,Advance 30% - Fire detection & suppression,INV/SUR/54289,R001,R001
+EX00010,TRP,AL017,equipment,PO-2026-005,Konkan Power Systems,10608000,2026-03-18,Payment on delivery 60% - Auxiliary transformer,INV/KON/71799,R008,R008
+EX00207,CPC,AL101,travel,,,140428,2026-03-20,Rolling stock inspection,INV/GEN/52937,R057,R055
+EX00234,TRP,AL017,equipment,PO-2026-005,Konkan Power Systems,10608000,2026-03-21,Payment on delivery 60% - Auxiliary transformer,INV/KON/71799,R008,R008
+EX00129,TRP,AL025,consumables,,Bharat Rail Systems,109957,2026-03-24,Test instruments,INV/BHA/37803,R015,R008
+EX00180,OCC,AL073,consumables,,Airflow Tunnel Tech,151966,2026-03-24,Test instruments,INV/AIR/98962,R038,R036
+EX00016,TVS,AL033,equipment,PO-2026-009,Airflow Tunnel Tech,2106000,2026-03-27,Advance 30% - Ventilation ducting,INV/AIR/30372,R017,R016
+EX00209,PMU,AL109,consumables,,Sahyadri Infra Builders,93712,2026-03-29,Site consumables,INV/SAH/71767,R059,R058
+EX00250,TRP,AL025,consumables,,Vistar Data Systems,51852,2026-03-30,Year-end purchase,INV/VIS/31233,R012,R008
+EX00251,TRP,AL025,consumables,,Signalogic India,63281,2026-03-30,Year-end purchase,INV/SIG/29422,R010,R008
+EX00252,TRP,AL025,consumables,,Vistar Data Systems,60934,2026-03-30,Year-end purchase,INV/VIS/73177,R012,R008
+EX00254,TRP,AL025,consumables,,Konkan Power Systems,73729,2026-03-30,Year-end purchase,INV/KON/47951,R013,R008
+EX00256,TRP,AL025,consumables,,Bharat Rail Systems,46503,2026-03-30,Year-end purchase,INV/BHA/24654,R009,R008
+EX00067,CVL,AL005,manpower,,,341000,2026-03-31,Project staff salaries Mar 2026,PAY/CVL/202603,R005,R058
+EX00068,TRP,AL021,manpower,,,338000,2026-03-31,Project staff salaries Mar 2026,PAY/TRP/202603,R009,R058
+EX00069,TVS,AL037,manpower,,,426000,2026-03-31,Project staff salaries Mar 2026,PAY/TVS/202603,R023,R058
+EX00070,RST,AL053,manpower,,,475000,2026-03-31,Project staff salaries Mar 2026,PAY/RST/202603,R033,R058
+EX00071,OCC,AL069,manpower,,,340000,2026-03-31,Project staff salaries Mar 2026,PAY/OCC/202603,R046,R058
+EX00072,OPS,AL081,manpower,,,384000,2026-03-31,Project staff salaries Mar 2026,PAY/OPS/202603,R047,R058
+EX00073,CPC,AL093,manpower,,,85000,2026-03-31,Project staff salaries Mar 2026,PAY/CPC/202603,R056,R058
+EX00074,PMU,AL105,manpower,,,45000,2026-03-31,Project staff salaries Mar 2026,PAY/PMU/202603,R060,R058
+EX00253,TRP,AL025,consumables,,Vistar Data Systems,53602,2026-03-31,Year-end purchase,INV/VIS/46187,R014,R008
+EX00255,TRP,AL025,consumables,,Railtel Components,73357,2026-03-31,Year-end purchase,INV/RAI/49622,R010,R008
+EX00126,CVL,AL013,travel,,,80478,2026-04-01,Factory acceptance test visit,INV/GEN/93371,R001,R001
+EX00193,OPS,AL085,consumables,,Suraksha Fire Systems,76968,2026-04-03,Spares,INV/SUR/91057,R053,R047
+EX00005,CVL,AL001,civil_works,PO-2026-003,Sahyadri Infra Builders,819000,2026-04-06,Advance 30% - Access control & CCTV,INV/SAH/30503,R003,R001
+EX00183,OCC,AL073,consumables,,Tejas Switchgear,99795,2026-04-06,Test instruments,INV/TEJ/54208,R040,R036
+EX00196,OPS,AL089,travel,,,175556,2026-04-09,Rolling stock inspection,INV/GEN/66681,R053,R047
+EX00245,OPS,AL121,software_licences,,Railtel Components,306904,2026-04-10,Licence renewal,INV/RAI/57307,R053,R047
+EX00221,OCC,AL117,software_licences,,Bharat Rail Systems,311523,2026-04-12,Design software licence,INV/BHA/53855,R038,R036
+EX00246,OPS,AL121,software_licences,,Railtel Components,301006,2026-04-13,Licence renewal,INV/RAI/11815,R052,R047
+EX00013,TRP,AL017,equipment,PO-2026-007,Tejas Switchgear,936000,2026-04-14,Advance 30% - Platform door feeders,INV/TEJ/97690,R008,R008
+EX00247,OPS,AL122,software_licences,,Railtel Components,252683,2026-04-16,Licence renewal,INV/RAI/76899,R048,R047
+EX00153,TVS,AL046,travel,,,63961,2026-04-17,Factory acceptance test visit,INV/GEN/15594,R020,R016
+EX00225,OPS,AL122,software_licences,,Vistar Data Systems,353476,2026-04-17,Design software licence,INV/VIS/16759,R053,R047
+EX00140,TRP,AL026,consumables,,Railtel Components,124755,2026-04-18,Cables & glands,INV/RAI/59811,R014,R008
+EX00248,OPS,AL122,software_licences,,Railtel Components,277632,2026-04-19,Licence renewal,INV/RAI/71131,R049,R047
+EX00127,CVL,AL014,travel,,,32341,2026-04-20,Ministry review meeting,INV/GEN/82964,R004,R001
+EX00249,OPS,AL122,software_licences,,Railtel Components,320695,2026-04-22,Licence renewal,INV/RAI/58597,R047,R047
+EX00022,RST,AL050,equipment,PO-2026-013,Bharat Rail Systems,28005120,2026-04-23,Advance 30% - Trainsets,INV/BHA/67620,R031,R024
+EX00164,RST,AL058,consumables,,Signalogic India,58474,2026-04-23,Cables & glands,INV/SIG/18414,R033,R024
+EX00170,RST,AL062,travel,,,8216,2026-04-23,Rolling stock inspection,INV/GEN/92963,R024,R024
+EX00217,PMU,AL114,travel,,,40075,2026-04-23,Rolling stock inspection,INV/GEN/76795,R059,R058
+EX00212,PMU,AL114,travel,,,174467,2026-04-29,Ministry review meeting,INV/GEN/44082,R061,R058
+EX00075,CVL,AL006,manpower,,,341000,2026-04-30,Project staff salaries Apr 2026,PAY/CVL/202604,R001,R058
+EX00076,TRP,AL022,manpower,,,338000,2026-04-30,Project staff salaries Apr 2026,PAY/TRP/202604,R014,R058
+EX00077,TVS,AL038,manpower,,,426000,2026-04-30,Project staff salaries Apr 2026,PAY/TVS/202604,R017,R058
+EX00078, RST ,AL054,manpower,,,475000,2026-04-30,Project staff salaries Apr 2026,PAY/RST/202604,R032,R058
+EX00079,OCC,AL070,manpower,,,340000,2026-04-30,Project staff salaries Apr 2026,PAY/OCC/202604,R039,R058
+EX00080,OPS,AL082,manpower,,,384000,2026-04-30,Project staff salaries Apr 2026,PAY/OPS/202604,R047,R058
+EX00081,CPC,AL094,manpower,,,85000,2026-04-30,Project staff salaries Apr 2026,PAY/CPC/202604,R056,R058
+EX00082,PMU,AL106,manpower,,,45000,2026-04-30,Project staff salaries Apr 2026,PAY/PMU/202604,R059,R058
+EX00134,TRP,AL026,consumables,,Tejas Switchgear,46071,2026-04-30,Cables & glands,INV/TEJ/58566,R008,R008
+EX00166,RST,AL058,consumables,,Vistar Data Systems,147314,2026-04-30,Test instruments,INV/VIS/94824,R028,R024
+EX00018,TVS,AL034,equipment,PO-2026-010,Airflow Tunnel Tech,3042000,2026-05-20,Advance 30% - Station air handling unit,INV/AIR/8919,R017,R016
+EX00152,TVS,AL042,consumables,,Suraksha Fire Systems,148725,2026-05-20,Spares,INV/SUR/77671,R022,R016
+EX00130,TRP,AL026,consumables,,Sahyadri Infra Builders,93397,2026-05-21,Spares,INV/SAH/88345,R011,R008
+EX00198,OPS,AL090,travel,,,155659,2026-05-21,Ministry review meeting,INV/GEN/61625,R054,R047
+EX00224,OCC,AL118,software_licences,,Signalogic India,500804,2026-05-22,Simulation software licence,INV/SIG/87834,R046,R036
+EX00116,CVL,AL010,consumables,,Vistar Data Systems,103936,2026-05-23,Test instruments,INV/VIS/90198,R002,R001
+EX00241,RST,AL050,equipment,,Railtel Components,3134348,2026-05-25,Urgent door spares - direct purchase,INV/RAI/62217,R028,R024
+EX00019,TVS,AL034,equipment,PO-2026-011,Airflow Tunnel Tech,2535000,2026-05-28,Advance 30% - Platform ventilation,INV/AIR/11992,R017,R016
+EX00191,OPS,AL086,consumables,,Konkan Power Systems,103938,2026-05-28,Spares,INV/KON/22940,R051,R047
+EX00124,CVL,AL010,consumables,,Vistar Data Systems,39666,2026-05-30,Site consumables,INV/VIS/41924,R004,R001
+EX00015,TVS,AL034,equipment,PO-2026-008,Airflow Tunnel Tech,17940000,2026-05-31,Payment on delivery 60% - Tunnel ventilation fans,INV/AIR/76538,R021,R016
+EX00083,CVL,AL006,manpower,,,341000,2026-05-31,Project staff salaries May 2026,PAY/CVL/202605,R005,R058
+EX00084,TRP,AL022,manpower,,,338000,2026-05-31,Project staff salaries May 2026,PAY/TRP/202605,R014,R058
+EX00085,TVS,AL038,manpower,,,384000,2026-05-31,Project staff salaries May 2026,PAY/TVS/202605,R016,R058
+EX00086, RST ,AL054,manpower,,,475000,2026-05-31,Project staff salaries May 2026,PAY/RST/202605,R035,R058
+EX00087,OCC,AL070,manpower,,,340000,2026-05-31,Project staff salaries May 2026,PAY/OCC/202605,R044,R058
+EX00088,OPS,AL082,manpower,,,384000,2026-05-31,Project staff salaries May 2026,PAY/OPS/202605,R051,R058
+EX00089,CPC,AL094,manpower,,,85000,2026-05-31,Project staff salaries May 2026,PAY/CPC/202605,R055,R058
+EX00090,PMU,AL106,manpower,,,45000,2026-05-31,Project staff salaries May 2026,PAY/PMU/202605,R059,R058
+EX00162,RST,AL058,consumables,,Konkan Power Systems,57438,2026-06-01,Cables & glands,INV/KON/16070,R026,R024
+EX00008,TRP,AL018,equipment,PO-2026-004,Tejas Switchgear,10920000,2026-06-02,Payment on delivery 60% - 33 kV receiving substation,INV/TEJ/12223,R014,R008
+EX00138,TRP,AL026,consumables,,Signalogic India,48084,2026-06-06,Cables & glands,INV/SIG/65435,R012,R008
+EX00188,OPS,AL086,consumables,,Suraksha Fire Systems,124720,2026-06-06,Cables & glands,INV/SUR/8754,R052,R047
+EX00115,CVL,AL010,consumables,,Suraksha Fire Systems,139197,2026-06-08,Spares,INV/SUR/85372,R003,R001
+EX00147,TVS,AL042,consumables,,Vistar Data Systems,63466,2026-06-09,Cables & glands,INV/VIS/18771,R019,R016
+EX00177,OCC,AL074,consumables,,Airflow Tunnel Tech,101931,2026-06-11,Site consumables,INV/AIR/16239,R039,R036
+EX00172,RST,AL062,travel,,,89864,12/06/2026,Factory acceptance test visit,INV/GEN/35662,R030,R024
+EX00206,CPC,AL102,travel,,,39805,2026-06-12,Rolling stock inspection,INV/GEN/58068,R055,R055
+EX00242,TVS,AL034,equipment,PO-2026-008,Airflow Tunnel Tech,6578000,2026-06-12,Final payment,INV/AIR/22050,R016,R016
+EX00151,TVS,AL042,consumables,,Airflow Tunnel Tech,111004,2026-06-14,Cables & glands,INV/AIR/25865,R016,R016
+EX00002,CVL,AL002,civil_works,PO-2026-001,Sahyadri Infra Builders,7410000,2026-06-15,Payment on delivery 60% - Station box & concourse,INV/SAH/27940,R006,R001
+EX00182,OCC,AL074,consumables,,Suraksha Fire Systems,133627,2026-06-19,Spares,INV/SUR/82854,R042,R036
+EX00165,RST,AL058,consumables,,Konkan Power Systems,89671,2026-06-22,Site consumables,INV/KON/62594,R029,R024
+EX00237,OCC,AL118,software_licences,,Bharat Rail Systems,499655,2026-06-26,Bulk purchase,INV/BHA/2311,R037,R036
+EX00197,OPS,AL090,travel,,,8540,2026-06-28,Rolling stock inspection,INV/GEN/59500,R053,R047
+EX00091,CVL,AL006,manpower,,,341000,2026-06-30,Project staff salaries Jun 2026,PAY/CVL/202606,R003,R058
+EX00092,TRP,AL022,manpower,,,338000,2026-06-30,Project staff salaries Jun 2026,PAY/TRP/202606,R010,R058
+EX00093,TVS,AL038,manpower,,,384000,2026-06-30,Project staff salaries Jun 2026,PAY/TVS/202606,R018,R058
+EX00094,RST,AL054,manpower,,,475000,2026-06-30,Project staff salaries Jun 2026,PAY/RST/202606,R032,R058
+EX00095,OCC,AL070,manpower,,,340000,2026-06-30,Project staff salaries Jun 2026,PAY/OCC/202606,R038,R058
+EX00096,OPS,AL082,manpower,,,384000,2026-06-30,Project staff salaries Jun 2026,PAY/OPS/202606,R052,R058
+EX00097,CPC,AL094,manpower,,,85000,2026-06-30,Project staff salaries Jun 2026,PAY/CPC/202606,R057,R058
+EX00098,PMU,AL106,manpower,,,45000,2026-06-30,Project staff salaries Jun 2026,PAY/PMU/202606,R061,R058
+EX00143,TVS,AL042,consumables,,Sahyadri Infra Builders,157037,2026-06-30,Spares,INV/SAH/1437,R023,R016
+EX00192,OPS,AL086,consumables,,Bharat Rail Systems,91854,2026-06-30,Cables & glands,INV/BHA/29633,R048,R047
+EX00222,OCC,AL118,software_licences,,Vistar Data Systems,532677,2026-07-06,SCADA licence,INV/VIS/97610,R045,R036
+EX00244,TVS,AL042,consumables,,Sahyadri Infra Builders,128059,2026-07-08,Spares,INV/SAH/4859,R019,R022
+EX00216,PMU,AL114,travel,,,50844,2026-07-11,Ministry review meeting,INV/GEN/87856,R058,R058
+EX00204,CPC,AL102,travel,,,94545,2026-07-12,Factory acceptance test visit,INV/GEN/51858,R056,R055
+EX00119,CVL,AL010,consumables,,Vistar Data Systems,41623,2026-07-17,Cables & glands,INV/VIS/91586,R005,R001
+EX00223,OCC,AL118,software_licences,,Suraksha Fire Systems,342329,2026-07-17,SCADA licence,INV/SUR/76203,R039,R036
+EX00006,CVL,AL002,civil_works,PO-2026-003,Sahyadri Infra Builders,1638000,2026-07-21,Payment on delivery 60% - Access control & CCTV,INV/SAH/1936,R002,R001
+EX00235,OCC,AL118,software_licences,,Airflow Tunnel Tech,578926,2026-07-22,Bulk purchase,INV/AIR/87045,R040,R036
+EX00236,OCC,AL118,software_licences,,Airflow Tunnel Tech,414278,2026-07-22,Bulk purchase,INV/AIR/6101,R041,R036
+EX00144,TVS,AL042,consumables,,Konkan Power Systems,47822,2026-07-25,Test instruments,INV/KON/32048,R019,R016
+EX00171,RST,AL062,travel,,,72675,2026-07-25,Rolling stock inspection,INV/GEN/90124,R030,R024
+EX00181,OCC,AL074,consumables,,Vistar Data Systems,55302,2026-07-26,Spares,INV/VIS/75570,R039,R036
+EX00230,OPS,AL122,software_licences,,Vistar Data Systems,557854,2026-07-26,SCADA licence,INV/VIS/15919,R052,R047
+EX00024,RST,AL050,equipment,PO-2026-014,Signalogic India,21060000,2026-07-27,Payment on delivery 60% - CBTC signalling,INV/SIG/23417,R034,R024
+EX00194,OPS,AL090,travel,,,145746,2026-07-27,Rolling stock inspection,INV/GEN/39590,R052,R047
+EX00210,PMU,AL110,consumables,,Signalogic India,162750,2026-07-30,Cables & glands,INV/SIG/80348,R060,R058
+EX00099,CVL,AL006,manpower,,,341000,2026-07-31,Project staff salaries Jul 2026,PAY/CVL/202607,R002,R058
+EX00100,TRP,AL022,manpower,,,338000,2026-07-31,Project staff salaries Jul 2026,PAY/TRP/202607,R014,R058
+EX00101,TVS,AL038,manpower,,,384000,2026-07-31,Project staff salaries Jul 2026,PAY/TVS/202607,R016,R058
+EX00102,RST,AL054,manpower,,,475000,2026-07-31,Project staff salaries Jul 2026,PAY/RST/202607,R024,R058
+EX00103,OCC,AL070,manpower,,,340000,2026-07-31,Project staff salaries Jul 2026,PAY/OCC/202607,R039,R058
+EX00104,OPS,AL082,manpower,,,384000,2026-07-31,Project staff salaries Jul 2026,PAY/OPS/202607,R053,R058
+EX00105,CPC,AL094,manpower,,,85000,2026-07-31,Project staff salaries Jul 2026,PAY/CPC/202607,R055,R058
+EX00106,PMU,AL106,manpower,,,45000,2026-07-31,Project staff salaries Jul 2026,PAY/PMU/202607,R059,R058
+EX00238,OCC,AL118,software_licences,,Konkan Power Systems,577366,2026-08-05,Bulk purchase,INV/KON/62588,R046,R036
+EX00142,TRP,AL030,travel,,,62058,2026-08-07,Rolling stock inspection,INV/GEN/12547,R015,R008
+EX00189,OPS,AL086,consumables,,Railtel Components,37013,2026-08-08,Test instruments,INV/RAI/15555,R048,R047
+EX00021,RST,AL050,equipment,PO-2026-012,Bharat Rail Systems,48721920,2026-08-09,Payment on delivery 60% - Platform screen doors,INV/BHA/35962,R032,R024
+EX00205,CPC,AL102,travel,,,11214,2026-08-09,Factory acceptance test visit,INV/GEN/36125,R057,R055
+EX00004,CVL,AL002,civil_works,PO-2026-002,Suraksha Fire Systems,4836000,2026-08-10,Payment on delivery 60% - Fire detection & suppression,INV/SUR/36569,R006,R001
+EX00240,OCC,AL118,software_licences,,Vistar Data Systems,629417,2026-08-12,Bulk purchase,INV/VIS/79688,R037,R036
+EX00133,TRP,AL026,consumables,,Railtel Components,44031,2026-08-13,Test instruments,INV/RAI/45856,R013,R008
+EX00163,RST,AL058,consumables,,Railtel Components,43630,2026-08-15,Site consumables,INV/RAI/78308,R029,R024
+EX00161,RST,AL058,consumables,,Signalogic India,135637,2026-08-17,Site consumables,INV/SIG/35950,R033,R024
+EX00190,OPS,AL086,consumables,,Vistar Data Systems,25985,2026-08-19,Site consumables,INV/VIS/63940,R051,R047
+EX00123,CVL,AL010,consumables,,Konkan Power Systems,89530,2026-08-20,Cables & glands,INV/KON/39973,R001,R001
+EX00258,RST,AL050,equipment,PO-2026-012,Railtel Components,717366,2026-08-20,Signal test equipment,INV/RAI/60787,R024,R024
+EX00118,CVL,AL010,consumables,,Konkan Power Systems,23694,2026-08-24,Cables & glands,INV/KON/10415,R002,R001
+EX00229,OPS,AL122,software_licences,,Suraksha Fire Systems,234725,2026-08-24,SCADA licence,INV/SUR/24198,R047,R047
+EX00243,OCC,AL067,equipment,,Vistar Data Systems,1356173,2026-08-24,Additional OCC server,INV/VIS/68196,R040,R036
+EX00017,TVS,AL034,equipment,PO-2026-009,Airflow Tunnel Tech,"₹4,212,000",2026-08-25,Payment on delivery 60% - Ventilation ducting,INV/AIR/18421,R016,R016
+EX00157,TVS,AL046,travel,,,67912,2026-08-25,Ministry review meeting,INV/GEN/71214,R019,R016
+EX00175,OCC,AL074,consumables,,Signalogic India,131175,2026-08-27,Spares,INV/SIG/81389,R041,R036
+EX00026,OCC,AL066,equipment,PO-2026-015,Vistar Data Systems,24960000,2026-08-28,Payment on delivery 60% - OCC server cluster,INV/VIS/1087,R043,R036
+EX00185,OCC,AL078,travel,,,12515,2026-08-28,Ministry review meeting,INV/GEN/23044,R041,R036
+EX00257,TVS,AL034,equipment,,,-186399,2026-08-28,Adjustment,,R019,R016
+EX00149,TVS,AL042,consumables,,Railtel Components,55911,2026-08-30,Cables & glands,INV/RAI/45644,R022,R016
+EX00107,CVL,AL006,manpower,,,341000,2026-08-31,Project staff salaries Aug 2026,PAY/CVL/202608,R003,R058
+EX00108,TRP,AL022,manpower,,,338000,2026-08-31,Project staff salaries Aug 2026,PAY/TRP/202608,R010,R058
+EX00109,TVS,AL038,manpower,,,384000,2026-08-31,Project staff salaries Aug 2026,PAY/TVS/202608,R023,R058
+EX00110,RST,AL054,manpower,,,475000,2026-08-31,Project staff salaries Aug 2026,PAY/RST/202608,R024,R058
+EX00111,OCC,AL070,manpower,,,340000,2026-08-31,Project staff salaries Aug 2026,PAY/OCC/202608,R045,R058
+EX00112,OPS,AL082,manpower,,,384000,2026-08-31,Project staff salaries Aug 2026,PAY/OPS/202608,R054,R058
+EX00113,CPC,AL094,manpower,,,85000,2026-08-31,Project staff salaries Aug 2026,PAY/CPC/202608,R055,R058
+EX00114,PMU,AL106,manpower,,,45000,2026-08-31,Project staff salaries Aug 2026,PAY/PMU/202608,R059,R058
+EX00239,OCC,AL118,software_licences,,Railtel Components,532116,2026-08-31,Bulk purchase,INV/RAI/29586,R045,R036
+EX00141,TRP,AL030,travel,,,169324,2026-09-03,Ministry review meeting,INV/GEN/71189,R009,R008
+EX00168,RST,AL062,travel,,,34852,2026-09-04,Rolling stock inspection,INV/GEN/56206,R033,R024
+EX00012,TRP,AL018,equipment,PO-2026-006,Konkan Power Systems,7020000,2026-09-09,Payment on delivery 60% - DG backup set,INV/KON/24747,R008,R008
+EX00125,CVL,AL010,consumables,,Vistar Data Systems,105904,2026-09-13,Test instruments,INV/VIS/28519,R007,R001

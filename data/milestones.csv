@@ -1,0 +1,7 @@
+milestone_id,milestone_name,due_date,linked_task_ids,releases_tranche_id,reported_status
+M1,"Project sanctioned, governance board constituted",2025-10-21,PMU-01,T1,achieved
+M2,All major contracts awarded,2026-03-10,CPC-03;RST-02,T2,achieved
+M3,Station structure & power ready for systems,2026-07-28,CVL-07;TRP-05,,on_track
+M4,"Doors, trains & ventilation installed",2026-10-26,RST-05;RST-07;TVS-06,T3,on_track
+M5,Integrated trial runs complete,2026-12-30,OPS-04,,on_track
+M6,Safety approval & opening,2027-03-15,PMU-04,T4,on_track

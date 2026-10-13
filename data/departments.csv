@@ -1,0 +1,9 @@
+dept_id,dept_name,scope,total_budget_inr,head_researcher_id
+CVL,Civil & Structures,"Station box, concourse, fire safety, access control",43800000,R001
+TRP,Traction & Power Supply,"Receiving substation, auxiliary power, DG backup, platform feeders",83800000,R008
+TVS,Tunnel Ventilation & E&M,"Ventilation plant, ducting, fan sets, smoke control",92800000,R016
+RST,Rolling Stock & Signalling,"Platform screen doors, trainsets, CBTC signalling",317300000,R024
+OCC,Operations Control & IT,"OCC servers, SCADA, train supervision, ticketing",76800000,R036
+OPS,Operations & Safety,"Operating rules, staff certification, trial runs, safety approval",19000000,R047
+CPC,Contracts & Procurement,"Tendering, evaluation, contract award",3800000,R055
+PMU,Project Management Unit,"Governance, ministry reporting, contingency",35500000,R058

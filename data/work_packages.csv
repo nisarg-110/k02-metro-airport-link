@@ -1,0 +1,59 @@
+task_id,parent_task_id,dept_id,task_name,component_id,owner_researcher_id,planned_start,planned_end,actual_start,actual_end,status
+WP-CVL,,CVL,Civil & Structures work package,,R001,,,,,
+WP-TRP,,TRP,Traction & Power Supply work package,,R008,,,,,
+WP-TVS,,TVS,Tunnel Ventilation & E&M work package,,R016,,,,,
+WP-RST,,RST,Rolling Stock & Signalling work package,,R024,,,,,
+WP-OCC,,OCC,Operations Control & IT work package,,R036,,,,,
+WP-OPS,,OPS,Operations & Safety work package,,R047,,,,,
+WP-CPC,,CPC,Contracts & Procurement work package,,R055,,,,,
+WP-PMU,,PMU,Project Management Unit work package,,R058,,,,,
+PMU-01,WP-PMU,PMU,Project governance board constituted,LNK-001,R059,2025-10-01,2025-10-21,2025-10-09,2025-10-30,completed
+PMU-02,WP-PMU,PMU,Monthly progress reporting to ministry,LNK-001,R058,2025-12-30,2027-03-15,2025-12-29,,in_progress
+PMU-03,WP-PMU,PMU,Utilisation certificate for tranche 1,LNK-001,R061,2026-02-28,2026-03-30,2026-03-02,2026-03-30,In Progress
+PMU-04,WP-PMU,PMU,Opening to passengers & handover to O&M,LNK-001,R058,2027-02-18,2027-03-15,,,not_started
+CPC-01,WP-CPC,CPC,Contractor pre-qualification,LNK-001,R057,2025-10-01,2025-11-15,2025-10-31,2025-12-22,completed
+CPC-02,WP-CPC,CPC,Tender publication (systems & rolling stock),LNK-001,R057,2025-11-15,2025-12-15,2025-12-23,2026-01-30,completed
+CPC-03,WP-CPC,CPC,Evaluation committee & award,LNK-001,R055,2025-12-15,2026-01-24,2026-01-31,2026-03-16,completed
+CVL-01,WP-CVL,CVL,Geotechnical survey,STN-001,R005,2025-10-01,2025-10-31,2025-10-03,2025-11-09,completed
+CVL-02,WP-CVL,CVL,Station box design approval,STN-001,R007,2025-10-31,2025-12-15,2025-11-10,2026-01-06,completed
+CVL-03,WP-CVL,CVL,Civil contract award,STN-001,R002,2025-12-15,2026-01-24,2026-01-07,2026-02-24,completed
+CVL-04,WP-CVL,CVL,Station box & concourse structure,STN-BOX,R003,2026-01-24,2026-04-24,2026-02-25,2026-06-07,completed
+CVL-05,WP-CVL,CVL,Fire detection & suppression,STN-FIRE,R003,2026-04-24,2026-06-13,2026-06-08,2026-08-02,completed
+CVL-06,WP-CVL,CVL,Access control & CCTV,STN-ACS,R003,2026-04-29,2026-05-29,2026-06-08,2026-07-10,completed
+CVL-07,WP-CVL,CVL,Structure completion certificate,STN-001,R007,2026-06-18,2026-07-03,2026-08-03,2026-08-21,completed
+TRP-01,WP-TRP,TRP,Power demand study,PWR-001,R012,2025-10-16,2025-11-25,2025-10-16,2025-11-27,completed
+TRP-02,WP-TRP,TRP,Receiving substation,PWR-SUB,R014,2025-11-30,2026-03-30,2025-12-10,2026-05-22,completed
+TRP-03,WP-TRP,TRP,Auxiliary transformer procurement,PWR-AUX,R015,2025-11-30,2026-02-28,2025-12-01,2026-03-07,completed
+TRP-04,WP-TRP,TRP,Auxiliary substation commissioning,PWR-AUX,R012,2026-04-09,2026-05-19,2026-04-24,2026-07-26,completed
+TRP-05,WP-TRP,TRP,Platform door feeders,PWR-FDR,R013,2026-05-29,2026-07-13,2026-08-22,,in_progress
+TRP-06,WP-TRP,TRP,DG backup set,PWR-DG,R008,2026-03-30,2026-06-28,2026-05-23,2026-09-04,completed
+TRP-07,WP-TRP,TRP,Power system audit,PWR-001,R011,2026-07-28,2026-08-17,,,not_started
+TVS-01,WP-TVS,TVS,Ventilation & smoke modelling,TVS-001,R023,2025-10-16,2025-11-30,2025-10-24,2025-12-17,completed
+TVS-02,WP-TVS,TVS,Tunnel ventilation fan procurement,TVS-FAN,R022,2025-12-10,2026-04-09,2025-12-18,2026-05-13,completed
+TVS-03,WP-TVS,TVS,Ventilation ducting,TVS-DCT,R020,2026-04-19,2026-06-18,2026-06-08,2026-08-12,completed
+TVS-04,WP-TVS,TVS,Station air handling units,TVS-AHU,R023,2026-06-18,2026-07-28,2026-08-13,,in_progress
+TVS-05,WP-TVS,TVS,Platform ventilation fan sets,TVS-PVF,R020,2026-07-08,2026-08-22,,,not_started
+TVS-06,WP-TVS,TVS,Ventilation commissioning & smoke test,TVS-001,R017,2026-08-27,2026-09-21,,,not_started
+RST-01,WP-RST,RST,Systems architecture freeze,SYSM-001,R025,2025-10-01,2025-11-30,2025-10-01,2025-12-16,completed
+RST-02,WP-RST,RST,Rolling stock & PSD tender evaluation,SYSM-001,R028,2025-12-15,2026-01-29,2026-03-17,2026-05-07,completed
+RST-03,WP-RST,RST,PSD sets delivery & inspection,SYSM-PSD,R025,2026-04-19,2026-06-18,2026-05-08,2026-07-21,completed
+RST-04,WP-RST,RST,PSD installation platforms 1-2,SYSM-PSD,R030,2026-06-28,2026-08-07,,,not_started
+RST-05,WP-RST,RST,PSD installation platforms 3-4,SYSM-PSD,R030,2026-08-07,2026-09-16,,,not_started
+RST-06,WP-RST,RST,Trainset delivery & inspection,SYSM-TRN,R025,2026-05-29,2026-08-27,2026-06-06,,in_progress
+RST-07,WP-RST,RST,Trainset commissioning,SYSM-TRN,R025,2026-09-06,2026-10-21,,,not_started
+RST-08,WP-RST,RST,CBTC signalling design,SIG-001,R025,2025-11-30,2026-01-14,2025-12-17,2026-01-29,completed
+RST-09,WP-RST,RST,Signalling equipment procurement,SIG-001,R024,2026-01-19,2026-04-29,2026-03-17,2026-07-05,completed
+RST-10,WP-RST,RST,Signalling installation & testing,SIG-001,R033,2026-07-28,2026-09-26,,,not_started
+OCC-01,WP-OCC,OCC,OCC data architecture,OCC-001,R036,2025-10-31,2025-12-15,2025-11-11,2026-01-05,completed
+OCC-02,WP-OCC,OCC,OCC server procurement,OCC-001,R045,2025-12-20,2026-04-19,2026-03-17,2026-08-04,completed
+OCC-03,WP-OCC,OCC,OCC server deployment,OCC-001,R040,2026-08-27,2026-10-11,,,not_started
+OCC-04,WP-OCC,OCC,SCADA baseline configuration,SCD-BASE,R040,2026-06-08,2026-08-07,2026-06-10,2026-08-26,completed
+OCC-05,WP-OCC,OCC,Automatic train supervision setup,SCD-ATS,R045,2026-08-27,2026-10-06,,,not_started
+OCC-06,WP-OCC,OCC,Station SCADA dashboards,SCD-DASH,R046,2026-08-27,2026-10-16,2026-08-28,,in_progress
+OCC-07,WP-OCC,OCC,Ticketing & passenger information,SCD-AFC,R042,2026-10-06,2026-12-05,,,not_started
+OCC-08,WP-OCC,OCC,Cyber-security audit,SCD-001,R036,2026-12-05,2027-01-04,,,not_started
+OPS-01,WP-OPS,OPS,Operational requirements study,OPS-001,R048,2025-10-31,2025-12-30,2025-11-02,2026-01-17,completed
+OPS-02,WP-OPS,OPS,Operating rules & SOPs,OPS-SOP,R053,2026-01-29,2026-09-26,2026-02-01,,in_progress
+OPS-03,WP-OPS,OPS,Staff training & certification,OPS-CERT,R053,2026-01-29,2026-08-17,2026-02-08,,in_progress
+OPS-04,WP-OPS,OPS,Integrated trial runs,OPS-TRIAL,R053,2026-11-25,2026-12-25,,,not_started
+OPS-05,WP-OPS,OPS,Safety commissioner inspection,OPS-001,R053,2026-12-30,2027-02-13,2026-08-16,2026-09-10,completed

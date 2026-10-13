@@ -1,0 +1,2297 @@
+{
+ "id": "LNK-001",
+ "name": "Airport Link Station & Rolling Stock",
+ "type": "system",
+ "owner_dept": "PMU",
+ "children": [
+  {
+   "id": "STN-001",
+   "name": "Airport station structure",
+   "type": "subsystem",
+   "owner_dept": "CVL",
+   "children": [
+    {
+     "id": "STN-BOX",
+     "name": "Station box & concourse",
+     "type": "assembly",
+     "owner_dept": "CVL",
+     "children": []
+    },
+    {
+     "id": "STN-FIRE",
+     "name": "Fire detection & suppression",
+     "type": "assembly",
+     "owner_dept": "CVL",
+     "children": []
+    },
+    {
+     "id": "STN-ACS",
+     "name": "Access control & CCTV",
+     "type": "assembly",
+     "owner_dept": "CVL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "id": "PWR-001",
+   "name": "Power supply system",
+   "type": "subsystem",
+   "owner_dept": "TRP",
+   "children": [
+    {
+     "id": "PWR-SUB",
+     "name": "33 kV receiving substation",
+     "type": "assembly",
+     "owner_dept": "TRP",
+     "children": []
+    },
+    {
+     "id": "PWR-AUX",
+     "name": "Auxiliary transformer",
+     "type": "assembly",
+     "owner_dept": "TRP",
+     "children": []
+    },
+    {
+     "id": "PWR-DG",
+     "name": "DG backup set",
+     "type": "assembly",
+     "owner_dept": "TRP",
+     "children": []
+    },
+    {
+     "id": "PWR-FDR",
+     "name": "Platform door feeders",
+     "type": "assembly",
+     "owner_dept": "TRP",
+     "children": [
+      {
+       "id": "PWR-FDR-R1",
+       "name": "Door feeder platform 1",
+       "type": "part",
+       "owner_dept": "TRP",
+       "children": []
+      },
+      {
+       "id": "PWR-FDR-R2",
+       "name": "Door feeder platform 2",
+       "type": "part",
+       "owner_dept": "TRP",
+       "children": []
+      },
+      {
+       "id": "PWR-FDR-R3",
+       "name": "Door feeder platform 3",
+       "type": "part",
+       "owner_dept": "TRP",
+       "children": []
+      },
+      {
+       "id": "PWR-FDR-R4",
+       "name": "Door feeder platform 4",
+       "type": "part",
+       "owner_dept": "TRP",
+       "children": []
+      },
+      {
+       "id": "PWR-FDR-G1",
+       "name": "Depot feeder trainset 1",
+       "type": "part",
+       "owner_dept": "TRP",
+       "children": []
+      },
+      {
+       "id": "PWR-FDR-G2",
+       "name": "Depot feeder trainset 2",
+       "type": "part",
+       "owner_dept": "TRP",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "TVS-001",
+   "name": "Tunnel ventilation system",
+   "type": "subsystem",
+   "owner_dept": "TVS",
+   "children": [
+    {
+     "id": "TVS-FAN",
+     "name": "Tunnel ventilation fans",
+     "type": "assembly",
+     "owner_dept": "TVS",
+     "children": []
+    },
+    {
+     "id": "TVS-DCT",
+     "name": "Ventilation ducting",
+     "type": "assembly",
+     "owner_dept": "TVS",
+     "children": []
+    },
+    {
+     "id": "TVS-AHU",
+     "name": "Station air handling unit",
+     "type": "assembly",
+     "owner_dept": "TVS",
+     "children": []
+    },
+    {
+     "id": "TVS-PVF",
+     "name": "Platform ventilation",
+     "type": "assembly",
+     "owner_dept": "TVS",
+     "children": [
+      {
+       "id": "TVS-PVF-R1",
+       "name": "Ventilation fan set platform 1",
+       "type": "part",
+       "owner_dept": "TVS",
+       "children": []
+      },
+      {
+       "id": "TVS-PVF-R2",
+       "name": "Ventilation fan set platform 2",
+       "type": "part",
+       "owner_dept": "TVS",
+       "children": []
+      },
+      {
+       "id": "TVS-PVF-R3",
+       "name": "Ventilation fan set platform 3",
+       "type": "part",
+       "owner_dept": "TVS",
+       "children": []
+      },
+      {
+       "id": "TVS-PVF-R4",
+       "name": "Ventilation fan set platform 4",
+       "type": "part",
+       "owner_dept": "TVS",
+       "children": []
+      },
+      {
+       "id": "TVS-PVF-G1",
+       "name": "Depot ventilation bay 1",
+       "type": "part",
+       "owner_dept": "TVS",
+       "children": []
+      },
+      {
+       "id": "TVS-PVF-G2",
+       "name": "Depot ventilation bay 2",
+       "type": "part",
+       "owner_dept": "TVS",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "SIG-001",
+   "name": "CBTC signalling",
+   "type": "subsystem",
+   "owner_dept": "RST",
+   "children": [
+    {
+     "id": "SIG-ZC-01",
+     "name": "Zone controller 1",
+     "type": "part",
+     "owner_dept": "RST",
+     "children": []
+    },
+    {
+     "id": "SIG-ZC-02",
+     "name": "Zone controller 2",
+     "type": "part",
+     "owner_dept": "RST",
+     "children": []
+    },
+    {
+     "id": "SIG-CAB-R1",
+     "name": "Platform signal cabinet 1",
+     "type": "part",
+     "owner_dept": "RST",
+     "children": []
+    },
+    {
+     "id": "SIG-CAB-R2",
+     "name": "Platform signal cabinet 2",
+     "type": "part",
+     "owner_dept": "RST",
+     "children": []
+    },
+    {
+     "id": "SIG-CAB-R3",
+     "name": "Platform signal cabinet 3",
+     "type": "part",
+     "owner_dept": "RST",
+     "children": []
+    },
+    {
+     "id": "SIG-CAB-R4",
+     "name": "Platform signal cabinet 4",
+     "type": "part",
+     "owner_dept": "RST",
+     "children": []
+    },
+    {
+     "id": "SIG-CAB-G1",
+     "name": "Depot signal cabinet 1",
+     "type": "part",
+     "owner_dept": "RST",
+     "children": []
+    },
+    {
+     "id": "SIG-CAB-G2",
+     "name": "Depot signal cabinet 2",
+     "type": "part",
+     "owner_dept": "RST",
+     "children": []
+    }
+   ]
+  },
+  {
+   "id": "OCC-001",
+   "name": "OCC server cluster",
+   "type": "subsystem",
+   "owner_dept": "OCC",
+   "children": [
+    {
+     "id": "OCC-APP",
+     "name": "Application servers",
+     "type": "assembly",
+     "owner_dept": "OCC",
+     "children": []
+    },
+    {
+     "id": "OCC-DB",
+     "name": "Database servers",
+     "type": "assembly",
+     "owner_dept": "OCC",
+     "children": []
+    },
+    {
+     "id": "OCC-SAN",
+     "name": "Storage arrays",
+     "type": "assembly",
+     "owner_dept": "OCC",
+     "children": []
+    }
+   ]
+  },
+  {
+   "id": "SYSM-001",
+   "name": "Platform & train systems",
+   "type": "subsystem",
+   "owner_dept": "RST",
+   "children": [
+    {
+     "id": "SYSM-PSD",
+     "name": "Platform screen doors",
+     "type": "assembly",
+     "owner_dept": "RST",
+     "children": [
+      {
+       "id": "SYSM-PSD-R1",
+       "name": "PSD set platform 1",
+       "type": "rack",
+       "owner_dept": "RST",
+       "children": [
+        {
+         "id": "SYSM-PSD-R1-N01",
+         "name": "PSD door 1-01",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-PSD-R1-N01-MOT",
+           "name": "Door drive motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-PSD-R1-N01-SNS",
+           "name": "Obstacle sensor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "SYSM-PSD-R1-N02",
+         "name": "PSD door 1-02",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-PSD-R1-N02-MOT",
+           "name": "Door drive motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-PSD-R1-N02-SNS",
+           "name": "Obstacle sensor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "SYSM-PSD-R1-N03",
+         "name": "PSD door 1-03",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-PSD-R1-N03-MOT",
+           "name": "Door drive motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-PSD-R1-N03-SNS",
+           "name": "Obstacle sensor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "SYSM-PSD-R1-N04",
+         "name": "PSD door 1-04",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-PSD-R1-N04-MOT",
+           "name": "Door drive motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-PSD-R1-N04-SNS",
+           "name": "Obstacle sensor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "SYSM-PSD-R1-N05",
+         "name": "PSD door 1-05",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-PSD-R1-N05-MOT",
+           "name": "Door drive motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-PSD-R1-N05-SNS",
+           "name": "Obstacle sensor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "SYSM-PSD-R1-N06",
+         "name": "PSD door 1-06",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-PSD-R1-N06-MOT",
+           "name": "Door drive motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-PSD-R1-N06-SNS",
+           "name": "Obstacle sensor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "SYSM-PSD-R1-N07",
+         "name": "PSD door 1-07",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-PSD-R1-N07-MOT",
+           "name": "Door drive motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-PSD-R1-N07-SNS",
+           "name": "Obstacle sensor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "SYSM-PSD-R1-N08",
+         "name": "PSD door 1-08",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-PSD-R1-N08-MOT",
+           "name": "Door drive motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-PSD-R1-N08-SNS",
+           "name": "Obstacle sensor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "SYSM-PSD-R1-N09",
+         "name": "PSD door 1-09",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-PSD-R1-N09-MOT",
+           "name": "Door drive motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-PSD-R1-N09-SNS",
+           "name": "Obstacle sensor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "SYSM-PSD-R1-N10",
+         "name": "PSD door 1-10",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-PSD-R1-N10-MOT",
+           "name": "Door drive motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-PSD-R1-N10-SNS",
+           "name": "Obstacle sensor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "SYSM-PSD-R1-N11",
+         "name": "PSD door 1-11",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-PSD-R1-N11-MOT",
+           "name": "Door drive motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-PSD-R1-N11-SNS",
+           "name": "Obstacle sensor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "SYSM-PSD-R1-N12",
+         "name": "PSD door 1-12",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-PSD-R1-N12-MOT",
+           "name": "Door drive motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-PSD-R1-N12-SNS",
+           "name": "Obstacle sensor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "SYSM-PSD-R1-N13",
+         "name": "PSD door 1-13",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-PSD-R1-N13-MOT",
+           "name": "Door drive motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-PSD-R1-N13-SNS",
+           "name": "Obstacle sensor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "SYSM-PSD-R1-N14",
+         "name": "PSD door 1-14",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-PSD-R1-N14-MOT",
+           "name": "Door drive motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-PSD-R1-N14-SNS",
+           "name": "Obstacle sensor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "SYSM-PSD-R1-N15",
+         "name": "PSD door 1-15",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-PSD-R1-N15-MOT",
+           "name": "Door drive motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-PSD-R1-N15-SNS",
+           "name": "Obstacle sensor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "SYSM-PSD-R1-N16",
+         "name": "PSD door 1-16",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-PSD-R1-N16-MOT",
+           "name": "Door drive motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-PSD-R1-N16-SNS",
+           "name": "Obstacle sensor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "SYSM-PSD-R2",
+       "name": "PSD set platform 2",
+       "type": "rack",
+       "owner_dept": "RST",
+       "children": [
+        {
+         "id": "SYSM-PSD-R2-N01",
+         "name": "PSD door 2-01",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-PSD-R2-N01-MOT",
+           "name": "Door drive motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-PSD-R2-N01-SNS",
+           "name": "Obstacle sensor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "SYSM-PSD-R2-N02",
+         "name": "PSD door 2-02",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-PSD-R2-N02-MOT",
+           "name": "Door drive motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-PSD-R2-N02-SNS",
+           "name": "Obstacle sensor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "SYSM-PSD-R2-N03",
+         "name": "PSD door 2-03",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-PSD-R2-N03-MOT",
+           "name": "Door drive motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-PSD-R2-N03-SNS",
+           "name": "Obstacle sensor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "SYSM-PSD-R2-N04",
+         "name": "PSD door 2-04",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-PSD-R2-N04-MOT",
+           "name": "Door drive motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-PSD-R2-N04-SNS",
+           "name": "Obstacle sensor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "SYSM-PSD-R2-N05",
+         "name": "PSD door 2-05",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-PSD-R2-N05-MOT",
+           "name": "Door drive motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-PSD-R2-N05-SNS",
+           "name": "Obstacle sensor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "SYSM-PSD-R2-N06",
+         "name": "PSD door 2-06",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-PSD-R2-N06-MOT",
+           "name": "Door drive motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-PSD-R2-N06-SNS",
+           "name": "Obstacle sensor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "SYSM-PSD-R2-N07",
+         "name": "PSD door 2-07",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-PSD-R2-N07-MOT",
+           "name": "Door drive motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-PSD-R2-N07-SNS",
+           "name": "Obstacle sensor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "SYSM-PSD-R2-N08",
+         "name": "PSD door 2-08",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-PSD-R2-N08-MOT",
+           "name": "Door drive motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-PSD-R2-N08-SNS",
+           "name": "Obstacle sensor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "SYSM-PSD-R2-N09",
+         "name": "PSD door 2-09",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-PSD-R2-N09-MOT",
+           "name": "Door drive motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-PSD-R2-N09-SNS",
+           "name": "Obstacle sensor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "SYSM-PSD-R2-N10",
+         "name": "PSD door 2-10",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-PSD-R2-N10-MOT",
+           "name": "Door drive motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-PSD-R2-N10-SNS",
+           "name": "Obstacle sensor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "SYSM-PSD-R2-N11",
+         "name": "PSD door 2-11",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-PSD-R2-N11-MOT",
+           "name": "Door drive motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-PSD-R2-N11-SNS",
+           "name": "Obstacle sensor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "SYSM-PSD-R2-N12",
+         "name": "PSD door 2-12",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-PSD-R2-N12-MOT",
+           "name": "Door drive motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-PSD-R2-N12-SNS",
+           "name": "Obstacle sensor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "SYSM-PSD-R2-N13",
+         "name": "PSD door 2-13",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-PSD-R2-N13-MOT",
+           "name": "Door drive motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-PSD-R2-N13-SNS",
+           "name": "Obstacle sensor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "SYSM-PSD-R2-N14",
+         "name": "PSD door 2-14",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-PSD-R2-N14-MOT",
+           "name": "Door drive motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-PSD-R2-N14-SNS",
+           "name": "Obstacle sensor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "SYSM-PSD-R2-N15",
+         "name": "PSD door 2-15",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-PSD-R2-N15-MOT",
+           "name": "Door drive motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-PSD-R2-N15-SNS",
+           "name": "Obstacle sensor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "SYSM-PSD-R2-N16",
+         "name": "PSD door 2-16",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-PSD-R2-N16-MOT",
+           "name": "Door drive motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-PSD-R2-N16-SNS",
+           "name": "Obstacle sensor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "SYSM-PSD-R3",
+       "name": "PSD set platform 3",
+       "type": "rack",
+       "owner_dept": "RST",
+       "children": [
+        {
+         "id": "SYSM-PSD-R3-N01",
+         "name": "PSD door 3-01",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-PSD-R3-N01-MOT",
+           "name": "Door drive motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-PSD-R3-N01-SNS",
+           "name": "Obstacle sensor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "SYSM-PSD-R3-N02",
+         "name": "PSD door 3-02",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-PSD-R3-N02-MOT",
+           "name": "Door drive motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-PSD-R3-N02-SNS",
+           "name": "Obstacle sensor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "SYSM-PSD-R3-N03",
+         "name": "PSD door 3-03",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-PSD-R3-N03-MOT",
+           "name": "Door drive motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-PSD-R3-N03-SNS",
+           "name": "Obstacle sensor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "SYSM-PSD-R3-N04",
+         "name": "PSD door 3-04",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-PSD-R3-N04-MOT",
+           "name": "Door drive motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-PSD-R3-N04-SNS",
+           "name": "Obstacle sensor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "SYSM-PSD-R3-N05",
+         "name": "PSD door 3-05",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-PSD-R3-N05-MOT",
+           "name": "Door drive motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-PSD-R3-N05-SNS",
+           "name": "Obstacle sensor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "SYSM-PSD-R3-N06",
+         "name": "PSD door 3-06",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-PSD-R3-N06-MOT",
+           "name": "Door drive motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-PSD-R3-N06-SNS",
+           "name": "Obstacle sensor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "SYSM-PSD-R3-N07",
+         "name": "PSD door 3-07",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-PSD-R3-N07-MOT",
+           "name": "Door drive motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-PSD-R3-N07-SNS",
+           "name": "Obstacle sensor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "SYSM-PSD-R3-N08",
+         "name": "PSD door 3-08",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-PSD-R3-N08-MOT",
+           "name": "Door drive motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-PSD-R3-N08-SNS",
+           "name": "Obstacle sensor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "SYSM-PSD-R3-N09",
+         "name": "PSD door 3-09",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-PSD-R3-N09-MOT",
+           "name": "Door drive motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-PSD-R3-N09-SNS",
+           "name": "Obstacle sensor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "SYSM-PSD-R3-N10",
+         "name": "PSD door 3-10",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-PSD-R3-N10-MOT",
+           "name": "Door drive motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-PSD-R3-N10-SNS",
+           "name": "Obstacle sensor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "SYSM-PSD-R3-N11",
+         "name": "PSD door 3-11",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-PSD-R3-N11-MOT",
+           "name": "Door drive motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-PSD-R3-N11-SNS",
+           "name": "Obstacle sensor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "SYSM-PSD-R3-N12",
+         "name": "PSD door 3-12",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-PSD-R3-N12-MOT",
+           "name": "Door drive motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-PSD-R3-N12-SNS",
+           "name": "Obstacle sensor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "SYSM-PSD-R3-N13",
+         "name": "PSD door 3-13",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-PSD-R3-N13-MOT",
+           "name": "Door drive motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-PSD-R3-N13-SNS",
+           "name": "Obstacle sensor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "SYSM-PSD-R3-N14",
+         "name": "PSD door 3-14",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-PSD-R3-N14-MOT",
+           "name": "Door drive motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-PSD-R3-N14-SNS",
+           "name": "Obstacle sensor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "SYSM-PSD-R3-N15",
+         "name": "PSD door 3-15",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-PSD-R3-N15-MOT",
+           "name": "Door drive motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-PSD-R3-N15-SNS",
+           "name": "Obstacle sensor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "SYSM-PSD-R3-N16",
+         "name": "PSD door 3-16",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-PSD-R3-N16-MOT",
+           "name": "Door drive motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-PSD-R3-N16-SNS",
+           "name": "Obstacle sensor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "SYSM-PSD-R4",
+       "name": "PSD set platform 4",
+       "type": "rack",
+       "owner_dept": "RST",
+       "children": [
+        {
+         "id": "SYSM-PSD-R4-N01",
+         "name": "PSD door 4-01",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-PSD-R4-N01-MOT",
+           "name": "Door drive motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-PSD-R4-N01-SNS",
+           "name": "Obstacle sensor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "SYSM-PSD-R4-N02",
+         "name": "PSD door 4-02",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-PSD-R4-N02-MOT",
+           "name": "Door drive motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-PSD-R4-N02-SNS",
+           "name": "Obstacle sensor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "SYSM-PSD-R4-N03",
+         "name": "PSD door 4-03",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-PSD-R4-N03-MOT",
+           "name": "Door drive motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-PSD-R4-N03-SNS",
+           "name": "Obstacle sensor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "SYSM-PSD-R4-N04",
+         "name": "PSD door 4-04",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-PSD-R4-N04-MOT",
+           "name": "Door drive motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-PSD-R4-N04-SNS",
+           "name": "Obstacle sensor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "SYSM-PSD-R4-N05",
+         "name": "PSD door 4-05",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-PSD-R4-N05-MOT",
+           "name": "Door drive motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-PSD-R4-N05-SNS",
+           "name": "Obstacle sensor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "SYSM-PSD-R4-N06",
+         "name": "PSD door 4-06",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-PSD-R4-N06-MOT",
+           "name": "Door drive motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-PSD-R4-N06-SNS",
+           "name": "Obstacle sensor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "SYSM-PSD-R4-N07",
+         "name": "PSD door 4-07",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-PSD-R4-N07-MOT",
+           "name": "Door drive motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-PSD-R4-N07-SNS",
+           "name": "Obstacle sensor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "SYSM-PSD-R4-N08",
+         "name": "PSD door 4-08",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-PSD-R4-N08-MOT",
+           "name": "Door drive motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-PSD-R4-N08-SNS",
+           "name": "Obstacle sensor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "SYSM-PSD-R4-N09",
+         "name": "PSD door 4-09",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-PSD-R4-N09-MOT",
+           "name": "Door drive motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-PSD-R4-N09-SNS",
+           "name": "Obstacle sensor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "SYSM-PSD-R4-N10",
+         "name": "PSD door 4-10",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-PSD-R4-N10-MOT",
+           "name": "Door drive motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-PSD-R4-N10-SNS",
+           "name": "Obstacle sensor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "SYSM-PSD-R4-N11",
+         "name": "PSD door 4-11",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-PSD-R4-N11-MOT",
+           "name": "Door drive motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-PSD-R4-N11-SNS",
+           "name": "Obstacle sensor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "SYSM-PSD-R4-N12",
+         "name": "PSD door 4-12",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-PSD-R4-N12-MOT",
+           "name": "Door drive motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-PSD-R4-N12-SNS",
+           "name": "Obstacle sensor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "SYSM-PSD-R4-N13",
+         "name": "PSD door 4-13",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-PSD-R4-N13-MOT",
+           "name": "Door drive motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-PSD-R4-N13-SNS",
+           "name": "Obstacle sensor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "SYSM-PSD-R4-N14",
+         "name": "PSD door 4-14",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-PSD-R4-N14-MOT",
+           "name": "Door drive motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-PSD-R4-N14-SNS",
+           "name": "Obstacle sensor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "SYSM-PSD-R4-N15",
+         "name": "PSD door 4-15",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-PSD-R4-N15-MOT",
+           "name": "Door drive motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-PSD-R4-N15-SNS",
+           "name": "Obstacle sensor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "SYSM-PSD-R4-N16",
+         "name": "PSD door 4-16",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-PSD-R4-N16-MOT",
+           "name": "Door drive motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-PSD-R4-N16-SNS",
+           "name": "Obstacle sensor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "SYSM-TRN",
+     "name": "Trainsets",
+     "type": "assembly",
+     "owner_dept": "RST",
+     "children": [
+      {
+       "id": "SYSM-TRN-R1",
+       "name": "Trainset 1",
+       "type": "rack",
+       "owner_dept": "RST",
+       "children": [
+        {
+         "id": "SYSM-TRN-R1-N01",
+         "name": "Car 1-01",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-TRN-R1-N01-MOT",
+           "name": "Bogie",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-TRN-R1-N01-TM",
+           "name": "Traction motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-TRN-R1-N01-SNS",
+           "name": "Seat module",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "SYSM-TRN-R1-N02",
+         "name": "Car 1-02",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-TRN-R1-N02-MOT",
+           "name": "Bogie",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-TRN-R1-N02-TM",
+           "name": "Traction motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-TRN-R1-N02-SNS",
+           "name": "Seat module",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "SYSM-TRN-R1-N03",
+         "name": "Car 1-03",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-TRN-R1-N03-MOT",
+           "name": "Bogie",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-TRN-R1-N03-TM",
+           "name": "Traction motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-TRN-R1-N03-SNS",
+           "name": "Seat module",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "SYSM-TRN-R1-N04",
+         "name": "Car 1-04",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-TRN-R1-N04-MOT",
+           "name": "Bogie",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-TRN-R1-N04-TM",
+           "name": "Traction motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-TRN-R1-N04-SNS",
+           "name": "Seat module",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "SYSM-TRN-R1-N05",
+         "name": "Car 1-05",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-TRN-R1-N05-MOT",
+           "name": "Bogie",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-TRN-R1-N05-TM",
+           "name": "Traction motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-TRN-R1-N05-SNS",
+           "name": "Seat module",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "SYSM-TRN-R1-N06",
+         "name": "Car 1-06",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-TRN-R1-N06-MOT",
+           "name": "Bogie",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-TRN-R1-N06-TM",
+           "name": "Traction motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-TRN-R1-N06-SNS",
+           "name": "Seat module",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "SYSM-TRN-R1-N07",
+         "name": "Car 1-07",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-TRN-R1-N07-MOT",
+           "name": "Bogie",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-TRN-R1-N07-TM",
+           "name": "Traction motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-TRN-R1-N07-SNS",
+           "name": "Seat module",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "SYSM-TRN-R1-N08",
+         "name": "Car 1-08",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-TRN-R1-N08-MOT",
+           "name": "Bogie",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-TRN-R1-N08-TM",
+           "name": "Traction motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-TRN-R1-N08-SNS",
+           "name": "Seat module",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "SYSM-TRN-R2",
+       "name": "Trainset 2",
+       "type": "rack",
+       "owner_dept": "RST",
+       "children": [
+        {
+         "id": "SYSM-TRN-R2-N01",
+         "name": "Car 2-01",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-TRN-R2-N01-MOT",
+           "name": "Bogie",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-TRN-R2-N01-TM",
+           "name": "Traction motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-TRN-R2-N01-SNS",
+           "name": "Seat module",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "SYSM-TRN-R2-N02",
+         "name": "Car 2-02",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-TRN-R2-N02-MOT",
+           "name": "Bogie",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-TRN-R2-N02-TM",
+           "name": "Traction motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-TRN-R2-N02-SNS",
+           "name": "Seat module",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "SYSM-TRN-R2-N03",
+         "name": "Car 2-03",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-TRN-R2-N03-MOT",
+           "name": "Bogie",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-TRN-R2-N03-TM",
+           "name": "Traction motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-TRN-R2-N03-SNS",
+           "name": "Seat module",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "SYSM-TRN-R2-N04",
+         "name": "Car 2-04",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-TRN-R2-N04-MOT",
+           "name": "Bogie",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-TRN-R2-N04-TM",
+           "name": "Traction motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-TRN-R2-N04-SNS",
+           "name": "Seat module",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "SYSM-TRN-R2-N05",
+         "name": "Car 2-05",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-TRN-R2-N05-MOT",
+           "name": "Bogie",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-TRN-R2-N05-TM",
+           "name": "Traction motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-TRN-R2-N05-SNS",
+           "name": "Seat module",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "SYSM-TRN-R2-N06",
+         "name": "Car 2-06",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-TRN-R2-N06-MOT",
+           "name": "Bogie",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-TRN-R2-N06-TM",
+           "name": "Traction motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-TRN-R2-N06-SNS",
+           "name": "Seat module",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "SYSM-TRN-R2-N07",
+         "name": "Car 2-07",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-TRN-R2-N07-MOT",
+           "name": "Bogie",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-TRN-R2-N07-TM",
+           "name": "Traction motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-TRN-R2-N07-SNS",
+           "name": "Seat module",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "SYSM-TRN-R2-N08",
+         "name": "Car 2-08",
+         "type": "node",
+         "owner_dept": "RST",
+         "children": [
+          {
+           "id": "SYSM-TRN-R2-N08-MOT",
+           "name": "Bogie",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-TRN-R2-N08-TM",
+           "name": "Traction motor",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          },
+          {
+           "id": "SYSM-TRN-R2-N08-SNS",
+           "name": "Seat module",
+           "type": "part",
+           "owner_dept": "RST",
+           "children": []
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "SCD-001",
+   "name": "Control software",
+   "type": "subsystem",
+   "owner_dept": "OCC",
+   "children": [
+    {
+     "id": "SCD-BASE",
+     "name": "SCADA baseline",
+     "type": "assembly",
+     "owner_dept": "OCC",
+     "children": []
+    },
+    {
+     "id": "SCD-ATS",
+     "name": "Automatic train supervision",
+     "type": "assembly",
+     "owner_dept": "OCC",
+     "children": []
+    },
+    {
+     "id": "SCD-DASH",
+     "name": "Station SCADA dashboards",
+     "type": "assembly",
+     "owner_dept": "OCC",
+     "children": []
+    },
+    {
+     "id": "SCD-AFC",
+     "name": "Ticketing & passenger info",
+     "type": "assembly",
+     "owner_dept": "OCC",
+     "children": []
+    }
+   ]
+  },
+  {
+   "id": "OPS-001",
+   "name": "Operational readiness",
+   "type": "subsystem",
+   "owner_dept": "OPS",
+   "children": [
+    {
+     "id": "OPS-SOP",
+     "name": "Operating rules & SOPs",
+     "type": "assembly",
+     "owner_dept": "OPS",
+     "children": []
+    },
+    {
+     "id": "OPS-CERT",
+     "name": "Staff certification programme",
+     "type": "assembly",
+     "owner_dept": "OPS",
+     "children": []
+    },
+    {
+     "id": "OPS-TRIAL",
+     "name": "Integrated trial runs",
+     "type": "assembly",
+     "owner_dept": "OPS",
+     "children": []
+    }
+   ]
+  }
+ ]
+}

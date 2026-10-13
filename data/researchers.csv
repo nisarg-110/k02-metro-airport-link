@@ -1,0 +1,62 @@
+researcher_id,full_name,dept_id,role,email,project_allocation_pct,monthly_cost_inr,joined_on,left_on,status
+R001,Manish Reddy,CVL,Professor & Dept Lead,manish.reddy1@vit-shakti.ac.in,20,0,2025-10-01,,active
+R002,Nandini Banerjee,CVL,Research Scholar,nandini.banerjee2@vit-shakti.ac.in,50,42000,2025-11-30,,active
+R003,Arjun Naidu,CVL,Project Engineer,arjun.naidu3@vit-shakti.ac.in,100,85000,2025-10-01,,active
+R004,Abhishek Sharma,CVL,Project Engineer,abhishek.sharma4@vit-shakti.ac.in,100,85000,2025-10-01,,active
+R005,Tanvi Sharma,CVL,Research Scholar,tanvi.sharma5@vit-shakti.ac.in,20,42000,2025-10-01,,active
+R006,Ayesha Banerjee,CVL,Technician,ayesha.banerjee6@vit-shakti.ac.in,100,45000,2025-10-01,,active
+R007,Kiran Naidu,CVL,Research Scholar,kiran.naidu7@vit-shakti.ac.in,50,42000,2025-10-16,,active
+R008,Priya Khan,TRP,Professor & Dept Lead,priya.khan8@vit-shakti.ac.in,20,0,2025-10-01,,active
+R009,Gurleen Bhat,TRP,Research Scholar,gurleen.bhat9@vit-shakti.ac.in,30,42000,2025-11-30,,active
+R010,Gurleen Qureshi,TRP,Project Engineer,gurleen.qureshi10@vit-shakti.ac.in,100,85000,2025-10-16,,active
+R011,Manish Bhat,TRP,Research Scholar,manish.bhat11@vit-shakti.ac.in,40,42000,2025-11-30,,active
+R012,Imran Menon,TRP,Co-Investigator,imran.menon12@vit-shakti.ac.in,50,0,2025-11-30,,active
+R013,Ritu Mishra,TRP,Research Scholar,ritu.mishra13@vit-shakti.ac.in,30,42000,2025-10-01,,active
+R014,Deepak Rao,TRP,Project Engineer,deepak.rao14@vit-shakti.ac.in,100,85000,2026-01-29,,active
+R015,Siddharth Qureshi,TRP,Research Scholar,siddharth.qureshi15@vit-shakti.ac.in,20,42000,2025-10-01,,active
+R016,Vikram Banerjee,TVS,Professor & Dept Lead,vikram.banerjee16@vit-shakti.ac.in,20,0,2025-10-01,,active
+R017,Lakshmi Qureshi,TVS,Research Scholar,lakshmi.qureshi17@vit-shakti.ac.in,40,42000,2025-11-30,,active
+R018,Vikram Kulkarni,TVS,Project Engineer,vikram.kulkarni18@vit-shakti.ac.in,100,85000,2025-10-16,,active
+R019,Nandini Pillai,TVS,Research Scholar,nandini.pillai19@vit-shakti.ac.in,30,42000,2025-10-16,,on_leave
+R020,Vikram Fernandes,TVS,Project Engineer,vikram.fernandes20@vit-shakti.ac.in,100,85000,2025-10-01,,active
+R021,Ayesha Singh,TVS,Technician,ayesha.singh21@vit-shakti.ac.in,100,45000,2025-10-16,,active
+R022,Divya Naidu,TVS,Research Scholar,divya.naidu22@vit-shakti.ac.in,20,42000,2025-10-31,2026-05-29,exited
+R023,Abhishek Iyer,TVS,Project Engineer,abhishek.iyer23@vit-shakti.ac.in,100,85000,2025-10-01,,active
+R024,Kiran Banerjee,RST,Professor & Dept Lead,kiran.banerjee24@vit-shakti.ac.in,50,0,2025-10-01,,active
+R025,Rahul Singh,RST,Co-Investigator,rahul.singh25@vit-shakti.ac.in,20,0,2025-10-01,,active
+R026,Priya Hegde,RST,Technician,priya.hegde26@vit-shakti.ac.in,100,45000,2025-10-31,,active
+R027,Meera Kulkarni,RST,Technician,meera.kulkarni27@vit-shakti.ac.in,100,45000,2025-10-01,,active
+R028,Ayesha Khan,RST,Research Scholar,ayesha.khan28@vit-shakti.ac.in,20,42000,2025-10-01,,active
+R029,Tanvi Hegde,RST,Project Engineer,tanvi.hegde29@vit-shakti.ac.in,100,85000,2025-10-01,,active
+R030,Manish Khan,RST,Research Scholar,manish.khan30@vit-shakti.ac.in,20,42000,2025-10-01,,active
+R031,Swathi Mishra,RST,Research Scholar,swathi.mishra31@vit-shakti.ac.in,30,42000,2026-01-29,,active
+R032,Neha Singh,RST,Research Scholar,neha.singh32@vit-shakti.ac.in,40,42000,2025-10-01,,active
+R033,Rahul Sharma,RST,Research Scholar,rahul.sharma33@vit-shakti.ac.in,50,42000,2025-10-16,,active
+R034,Suresh Menon,RST,Technician,suresh.menon34@vit-shakti.ac.in,100,45000,2025-11-30,,active
+R035,Suresh Reddy,RST,Technician,suresh.reddy35@vit-shakti.ac.in,100,45000,2026-01-29,,active
+R036,Kiran Naidu,OCC,Professor & Dept Lead,kiran.naidu36@vit-shakti.ac.in,30,0,2025-10-01,,active
+R037,Manish Banerjee,OCC,Research Scholar,manish.banerjee37@vit-shakti.ac.in,50,42000,2025-10-16,,active
+R038,Anjali Hegde,OCC,Research Scholar,anjali.hegde38@vit-shakti.ac.in,20,42000,2025-10-16,,active
+R039,Ananya Mishra,OCC,Co-Investigator,ananya.mishra39@vit-shakti.ac.in,30,0,2025-10-16,,active
+R040,Revathi Singh,OCC,Research Scholar,revathi.singh40@vit-shakti.ac.in,30,42000,2026-01-29,,active
+R041,Zoya Hegde,OCC,Co-Investigator,zoya.hegde41@vit-shakti.ac.in,20,0,2025-10-01,,active
+R042,Imran Pillai,OCC,Research Scholar,imran.pillai42@vit-shakti.ac.in,40,42000,2025-10-01,,active
+R043,Joseph Sharma,OCC,Project Engineer,joseph.sharma43@vit-shakti.ac.in,100,85000,2025-10-01,,active
+R044,Mary Khan,OCC,Technician,mary.khan44@vit-shakti.ac.in,100,45000,2026-01-29,,active
+R045,Kavya Mishra,OCC,Co-Investigator,kavya.mishra45@vit-shakti.ac.in,50,0,2026-01-29,,active
+R046,Meera Banerjee,OCC,Research Scholar,meera.banerjee46@vit-shakti.ac.in,40,42000,2025-10-31,,active
+R047,Rajesh Gill,OPS,Professor & Dept Lead,rajesh.gill47@vit-shakti.ac.in,30,0,2025-10-01,,active
+R048,Deepak Das,OPS,Research Scholar,deepak.das48@vit-shakti.ac.in,40,42000,2025-10-01,,active
+R049,Priya Mehta,OPS,Project Engineer,priya.mehta49@vit-shakti.ac.in,100,85000,2025-10-31,,active
+R050,Ritu Pillai,OPS,Co-Investigator,ritu.pillai50@vit-shakti.ac.in,50,0,2025-10-16,,active
+R051,Farhan Banerjee,OPS,Technician,farhan.banerjee51@vit-shakti.ac.in,100,45000,2025-10-16,,active
+R052,Lakshmi Rao,OPS,Project Engineer,lakshmi.rao52@vit-shakti.ac.in,100,85000,2025-10-01,,active
+R053,Rohan Banerjee,OPS,Research Scholar,rohan.banerjee53@vit-shakti.ac.in,50,42000,2025-11-30,,active
+R054,Deepak Patel,OPS,Project Engineer,deepak.patel54@vit-shakti.ac.in,100,85000,2026-01-29,,active
+R055,Meera Joshi,CPC,Professor & Dept Lead,meera.joshi55@vit-shakti.ac.in,30,0,2025-10-01,,active
+R056,Divya Chatterjee,CPC,Project Engineer,divya.chatterjee56@vit-shakti.ac.in,100,85000,2025-10-16,,active
+R057,Anjali Pillai,CPC,Co-Investigator,anjali.pillai57@vit-shakti.ac.in,20,0,2025-10-16,,active
+R058,Pranav Pillai,PMU,Principal Investigator,pranav.pillai58@vit-shakti.ac.in,20,0,2025-10-01,,active
+R059,Aditya Nair,PMU,Co-Investigator,aditya.nair59@vit-shakti.ac.in,30,0,2025-11-30,,active
+R060,Imran Iyer,PMU,Technician,imran.iyer60@vit-shakti.ac.in,100,45000,2025-10-31,,active
+R061,Lakshmi Khan,PMU,Co-Investigator,lakshmi.khan61@vit-shakti.ac.in,40,0,2025-11-30,,active
