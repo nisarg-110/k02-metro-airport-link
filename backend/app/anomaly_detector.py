@@ -1,6 +1,20 @@
 """
 Anomaly detection engine for K02 Metro Airport Link.
 Each rule returns a list[AnomalyItem]. All lists are concatenated by detect_all_anomalies().
+
+Rules implemented:
+  RULE1       - Spending against unreleased tranche
+  RULE2a      - Equipment/civil_works >5L without PO
+  RULE2b      - PO overspend
+  RULE3a      - Self-approval (requester == approver)
+  RULE3b      - Approved by exited researcher
+  RULE3c      - Approved after approver's left_on date
+  RULE3d      - Exited researcher logged hours after departure
+  RULE4       - Finish-to-start dependency violation
+  RULE5       - Component installed before dependency installed
+  RULE6       - Timesheet hours exceed allocation (10% tolerance)
+  RULE7       - Milestone reported achieved but linked tasks incomplete
+  RULE_BUDGET - Department total spend exceeds budget
 """
 
 from __future__ import annotations
